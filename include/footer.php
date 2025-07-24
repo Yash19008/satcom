@@ -1,110 +1,119 @@
 <style>
-.rc-share-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.rc-share-label {
-  background-color: #ffffff;
-  color: #f1ce64;
-  padding: 10px 10px;
-  border-radius: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.rc-share-label:hover {
-  color: #ffffff;
-}
-
-.rc-share-icons {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-.rc-share-container:hover .rc-share-icons {
-  display: flex;
-}
-
-.rc-share-icons a {
-  width: 50px;
-  height: 50px;
-  background-color: #ffffff;
-  color: #ffffff;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s, color 0.3s;
-}
-
-/* Hover colors for each icon */
-.rc-share-icons a:nth-child(1):hover {
-  color: #fff;
-}
-
-.rc-share-icons a:nth-child(2):hover {
-  color: #fff;
-}
-
-.rc-share-icons a:nth-child(3):hover {
-  color: #fff;
-}
-
-.rc-share-icons a:nth-child(4):hover {
-  color: #fff;
-}
-.rc-share-label img{
-    width: 30px;
-    height: 30px;
-}
-.rc-share-icons img{
-    width: 30px;
-    height: 30px;
-}
-
-/* Optional fadeIn animation */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Responsive layout for mobile */
-@media (max-width: 768px) {
   .rc-share-container {
-    right: 50%;
-    transform: translateX(50%);
-    align-items: center;
-  }
-
-  .rc-share-icons {
-    flex-direction: row;
-  }
-
-  .rc-share-icons a {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .rc-share-label {
-    font-size: 16px;
-    padding: 8px 16px;
+    background-color: #ffffff;
+    color: #f1ce64;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
-}
+
+  .rc-share-label:hover {
+    color: #ffffff;
+  }
+
+  .rc-share-icons {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .rc-share-container:hover .rc-share-icons {
+    display: flex;
+  }
+
+  .rc-share-icons a {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Hover colors for each icon */
+  .rc-share-icons a:nth-child(1):hover {
+    color: #fff;
+  }
+
+  .rc-share-icons a:nth-child(2):hover {
+    color: #fff;
+  }
+
+  .rc-share-icons a:nth-child(3):hover {
+    color: #fff;
+  }
+
+  .rc-share-icons a:nth-child(4):hover {
+    color: #fff;
+  }
+
+  .rc-share-label img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rc-share-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Optional fadeIn animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Responsive layout for mobile */
+  @media (max-width: 768px) {
+    .rc-share-container {
+      right: 50%;
+      transform: translateX(50%);
+      align-items: center;
+    }
+
+    .rc-share-icons {
+      flex-direction: row;
+    }
+
+    .rc-share-icons a {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+
+    .rc-share-label {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
 
   .footer-custom {
     background-color: #001f3f;
@@ -203,6 +212,51 @@
 </script>
 <script src="assets/javascript/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<!-- Include jQuery if not already -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.specialist-form').on('submit', function(e) {
+      e.preventDefault(); // Prevent default form submission
+
+      // Collect form data manually since some fields are outside of form-group
+      const formData = {
+        name: $('.specialist-input[placeholder="Name*"]').val(),
+        email: $('.specialist-input[placeholder="Email*"]').val(),
+        phone: $('.specialist-input[placeholder="Phone"]').val(),
+        country: $('.specialist-input[placeholder="Country*"]').val(),
+        topic: $('.select-with-circle').val(),
+        message: $('.specialist-textarea').val(),
+        consent: $('.specialist-checkbox input[type="checkbox"]').is(':checked')
+      };
+
+      // Optional: Validation check (in case HTML5 doesn't catch it)
+      if (!formData.name || !formData.email || !formData.country || !formData.topic || !formData.message || !formData.consent) {
+        alert('Please fill out all required fields.');
+        return;
+      }
+
+      // Send data to your API
+      $.ajax({
+        url: 'submit_form_details.php', // Replace with your actual endpoint
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(formData),
+        success: function(response) {
+          alert('Form submitted successfully!');
+          // Optionally reset the form
+          $('.specialist-form')[0].reset();
+        },
+        error: function(xhr, status, error) {
+          alert('An error occurred while submitting the form. Please try again.');
+          console.error(error);
+        }
+      });
+    });
+  });
+</script>
+
 </body>
 
 </html>
