@@ -1,0 +1,12 @@
+<svg id="cross" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.5" height="40.5" viewBox="0 0 40.5 40.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="20.25" cy="20.25" r="20.25"/>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="10" y="10" width="20" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAfUlEQVQ4jbWVQQrAIAwEQ//QB/s03+BzPEwRUuihNUa2exLMjiTGaEABOlCB05IaHvcORjFf3GoZqMPaw9/N6WShL7Ch+rUxhYaeDHQ5diUwnc3MsFOaCJqHBdA92AJ0CjtSp+xKmrL0UqRtI21s6dOTD4c/xpd8wOq+ACgXWJU+BOj/gh0AAAAASUVORK5CYII="/>
+</svg>

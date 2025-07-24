@@ -1,0 +1,25 @@
+<svg id="Arrow_copy_5" data-name="Arrow copy 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.38" height="52.5" viewBox="0 0 81.38 52.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #001730;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #002956;
+        stroke-width: 4px;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="28.41" y="0" width="52.97" height="52.5" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="28.410000000000082" y="0" width="52.97" height="52.5" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTIuOTciIGhlaWdodD0iNTIuNSIgdmlld0JveD0iMCAwIDUyLjk3IDUyLjUiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iNTIuOTciIHkxPSIzMi4zNjUiIHgyPSIwIiB5Mj0iMjAuMTM1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMjUiIHN0b3AtY29sb3I9IiNmYTlmMWUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjUxOSIgc3RvcC1jb2xvcj0iI2ZkNDU1ZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEuMjUiIHN0b3AtY29sb3I9IiM2ZTJlOGUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjUyLjk3IiBoZWlnaHQ9IjUyLjUiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle class="cls-1" cx="54.895" cy="26.25" r="26.485"/>
+  <path class="cls-2" d="M1747.51,1598.83l15.58,15.44-15.58,15.44" transform="translate(-1700.31 -1587.75)"/>
+  <path class="cls-2" d="M1700.3,1614.27h62.95" transform="translate(-1700.31 -1587.75)"/>
+</svg>
