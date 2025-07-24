@@ -161,10 +161,12 @@ include 'include/header.php';
         margin: 0 15px;
         animation: slideIn 0.6s ease-in-out forwards;
     }
-    .card-365{
+
+    .card-365 {
         background-image: url('assets/images/oneweb/model/oneweb-model-1.png');
     }
-    .card-kiosk2{
+
+    .card-kiosk2 {
         background-image: url('assets/images/oneweb/model/oneweb-model-5.png');
     }
 
@@ -489,7 +491,7 @@ include 'include/header.php';
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Aviation & Enterprise </h3>
-                                        <p>Seamless satellite connectivity for airborne and enterprise 
+                                        <p>Seamless satellite connectivity for airborne and enterprise
                                     </div>
                                 </div>
                             </div>
@@ -650,144 +652,144 @@ include 'include/header.php';
     </div>
 </section>
 <section class="uc-slider-wrapperr">
-        <section class="mt-5 pt-5 container py-5">
-            <h2 class="text-start mb-5">TECHNICAL SPECIFICATION</h2>
-            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center g-4 g-md-5">
+    <section class="mt-5 pt-5 container py-5">
+        <h2 class="text-start mb-5">TECHNICAL SPECIFICATION</h2>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center g-4 g-md-5">
 
-                <div class="col text-center">
-                    <div class="kb-card kb-global-coverage p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/oneweb/tech/oneweb-tech-1.svg" alt="Speeds Icon">
-                        </div>
-                        <p><strong>Speeds:</strong><br> Up to 195 Mbps (download),<br> 32 Mbps (upload)</p>
+            <div class="col text-center">
+                <div class="kb-card kb-global-coverage p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/oneweb/tech/oneweb-tech-1.svg" alt="Speeds Icon">
                     </div>
-                </div>
-
-                <div class="col text-center">
-                    <div class="kb-card kb-voice-data p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/oneweb/tech/oneweb-tech-2.svg" alt="Latency Icon">
-                        </div>
-                        <p><strong>Latency:</strong><br>
-                            <100ms< /p>
-                    </div>
-                </div>
-
-                <div class="col text-center">
-                    <div class="kb-card kb-compact p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/oneweb/tech/oneweb-tech-3.svg" alt="Coverage Icon">
-                        </div>
-                        <p><strong>Coverage:</strong><br> Global, including<br> polar regions</p>
-                    </div>
-                </div>
-
-                <div class="col text-center">
-                    <div class="kb-card kb-sos p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/oneweb/tech/oneweb-tech-4.svg" alt="Hardware Icon">
-                        </div>
-                        <p><strong>Hardware:</strong><br> Compact user<br> terminals with easy</p>
-                    </div>
+                    <p><strong>Speeds:</strong><br> Up to 195 Mbps (download),<br> 32 Mbps (upload)</p>
                 </div>
             </div>
-        </section>
 
-        <!-- vsat slider section end -->
+            <div class="col text-center">
+                <div class="kb-card kb-voice-data p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/oneweb/tech/oneweb-tech-2.svg" alt="Latency Icon">
+                    </div>
+                    <p><strong>Latency:</strong><br>
+                        <100ms< /p>
+                </div>
+            </div>
 
-        <!-- technical sp -->
-        <section class="lm-section py-5">
+            <div class="col text-center">
+                <div class="kb-card kb-compact p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/oneweb/tech/oneweb-tech-3.svg" alt="Coverage Icon">
+                    </div>
+                    <p><strong>Coverage:</strong><br> Global, including<br> polar regions</p>
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <div class="kb-card kb-sos p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/oneweb/tech/oneweb-tech-4.svg" alt="Hardware Icon">
+                    </div>
+                    <p><strong>Hardware:</strong><br> Compact user<br> terminals with easy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- vsat slider section end -->
+
+    <!-- technical sp -->
+    <section class="lm-section py-5">
+        <div class="container">
+            <div class="text-start mb-5">
+                <h2 class="lm-title">MODELS OFFERED</h2>
+            </div>
+
             <div class="container">
-                <div class="text-start mb-5">
-                    <h2 class="lm-title">MODELS OFFERED</h2>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 mb-4">
-                            <div class="ips-card text-center card-365">
-                                <div class="ips-card-arrow"></div>
-                                <div class="ips-overlay">
-                                    <div class="ips-icon ips-img-1">OW Maritime Dual Parabolic Antenna</div>
-                                    <div class="ips-desc">
-                                        <p>Managed & unmanaged IT services for proactive system monitoring.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 mb-4">
-                            <div class="ips-card text-center card-securex">
-                                <div class="ips-card-arrow"></div>
-                                <div class="ips-overlay">
-                                    <div class="ips-icon ips-img-1">OW11FM Enterprise Flat Panel for Maritime</div>
-                                    <div class="ips-desc">
-                                        <p>Comprehensive cyber protection with real-time threat detection.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 mb-4">
-                            <div class="ips-card text-center card-tab">
-                                <div class="ips-card-arrow"></div>
-                                <div class="ips-overlay">
-                                    <div class="ips-icon ips-img-1">Kymeta Peregrine u8</div>
-                                    <div class="ips-desc">
-                                        <p>Mobile device management ensuring secure onboard operations.</p>
-                                    </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="ips-card text-center card-365">
+                            <div class="ips-card-arrow"></div>
+                            <div class="ips-overlay">
+                                <div class="ips-icon ips-img-1">OW Maritime Dual Parabolic Antenna</div>
+                                <div class="ips-desc">
+                                    <p>Managed & unmanaged IT services for proactive system monitoring.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="row justify-content-center second-row-benefit mt-4">
-                        <div class="col-md-4 col-sm-6 mb-4">
-                            <div class="ips-card text-center card-kiosk">
-                                <div class="ips-card-arrow"></div>
-                                <div class="ips-overlay">
-                                    <div class="ips-icon ips-img-1">OW10HM Compact Flat Panel for Maritime</div>
-                                    <div class="ips-desc">
-                                        <p>Centralized digital display for communication and compliance.</p>
-                                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="ips-card text-center card-securex">
+                            <div class="ips-card-arrow"></div>
+                            <div class="ips-overlay">
+                                <div class="ips-icon ips-img-1">OW11FM Enterprise Flat Panel for Maritime</div>
+                                <div class="ips-desc">
+                                    <p>Comprehensive cyber protection with real-time threat detection.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 mb-4">
-                            <div class="ips-card text-center card-kiosk2">
-                                <div class="ips-card-arrow"></div>
-                                <div class="ips-overlay">
-                                    <div class="ips-icon ips-img-1">Intellian CNX Portfolio</div>
-                                    <div class="ips-desc">
-                                        <p>Centralized digital display for communication and compliance.</p>
-                                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="ips-card text-center card-tab">
+                            <div class="ips-card-arrow"></div>
+                            <div class="ips-overlay">
+                                <div class="ips-icon ips-img-1">Kymeta Peregrine u8</div>
+                                <div class="ips-desc">
+                                    <p>Mobile device management ensuring secure onboard operations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center second-row-benefit mt-4">
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="ips-card text-center card-kiosk">
+                            <div class="ips-card-arrow"></div>
+                            <div class="ips-overlay">
+                                <div class="ips-icon ips-img-1">OW10HM Compact Flat Panel for Maritime</div>
+                                <div class="ips-desc">
+                                    <p>Centralized digital display for communication and compliance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="ips-card text-center card-kiosk2">
+                            <div class="ips-card-arrow"></div>
+                            <div class="ips-overlay">
+                                <div class="ips-icon ips-img-1">Intellian CNX Portfolio</div>
+                                <div class="ips-desc">
+                                    <p>Centralized digital display for communication and compliance.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     </div>
     <div class="specialist-section-img connectivity">
-    <div class="d-flex">
-        <section class="specialist-section container">
-            <div class="fleet-cta-container text-center">
-                <h2 class="fleet-cta-text">
-                    Upgrade your fleet with OneWeb's <br>cutting-edge sattellite connectivity
-                </h2>
-                <a href="#contact" class="fleet-cta-button">Get in touch today.</a>
-            </div>
+        <div class="d-flex">
+            <section class="specialist-section container">
+                <div class="fleet-cta-container text-center">
+                    <h2 class="fleet-cta-text">
+                        Upgrade your fleet with OneWeb's <br>cutting-edge sattellite connectivity
+                    </h2>
+                    <a href="#contact" class="fleet-cta-button">Get in touch today.</a>
+                </div>
 
-        </section>
+            </section>
 
 
-    </div>
+        </div>
 
 
 
     </div>
 </section>
 
-    <?php
-    include 'include/footer.php';
-    ?>
+<?php
+include 'include/footer.php';
+?>
