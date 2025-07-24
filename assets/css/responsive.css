@@ -279,6 +279,15 @@
     background-position: center top !important;
     background-size: cover !important;
   }
+   .banner-text{
+    width: 100% !important;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .center-logo{
+    width: 50px;
+  height: 50px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -378,18 +387,19 @@
 
 
   .specialist-section-img {
-    background: url(../images/background/bottom-bg.png);
+    background: url(../images/footers/Page\ Bottom.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 60% 118%;
   }
+ 
 
   .breadcrumb {
     padding: 0px 20px;
   }
 
   .breadcrumb a {
-    font-size: 14px;
+    font-size: 8px;
   }
 
   .slider {
@@ -463,7 +473,7 @@
   }
 
   .locations-container .location-card {
-    height: 300px !important;
+    height: 350px !important;
   }
 
   .locations-container .card-title {
@@ -473,6 +483,9 @@
   .location-card .card-desc {
     font-size: 10px;
     word-wrap: break-word;
+  }
+  .fleetbroadband-overlay{
+    margin-top: 0px;
   }
   
 }

@@ -161,11 +161,21 @@
 <div class="rc-share-container">
   <span class="rc-share-label"><img src="assets/images/share.png"></span>
   <nav class="rc-share-icons">
-    <a href="#"><img src="assets/images/twitter-social.png"></a>
-    <a href="#"><img src="assets/images/facebook-social.png"></a>
-    <a href="#"><img src="assets/images/whatsapp-social.png"></a>
-    <a href="#"><img src="assets/images/instagram-float.svg" alt="Instagram"></a>
-    <a href="#"><img src="assets/images/linkedin-float.svg" alt="LinkedIn"></a>
+    <a href="https://x.com/Station_Satcom_" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/twitter-social.png" alt="Twitter">
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61577074606628" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/facebook-social.png" alt="Facebook">
+    </a>
+    <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/whatsapp-social.png" alt="WhatsApp">
+    </a> -->
+    <a href="https://www.instagram.com/stationsatcom/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/instagram-float.svg" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/company/station-satcom/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/linkedin-float.svg" alt="LinkedIn">
+    </a>
   </nav>
 </div>
 
