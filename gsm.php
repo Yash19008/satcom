@@ -5,14 +5,6 @@ include 'include/header.php';
 <meta name="keywords" content="maritime GSM, offshore GSM booster, 5G-ready ship connectivity, mobile network for ships, vessel GSM solutions">
 
 <style>
-    
-    .hero-section {
-        position: relative;
-        background-color: #010d1b;
-        z-index: 0;
-        overflow: hidden;
-    }
-
     .hero-section::after {
         content: "";
         position: absolute;
@@ -30,388 +22,6 @@ include 'include/header.php';
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
-    }
-
-    .uc-card {
-        opacity: 1;
-        transform: translateX(0);
-        transition: all 0.6s ease-in-out;
-        display: flex;
-        flex-direction: row;
-        border-radius: 20px;
-        overflow: hidden;
-        min-height: 350px;
-        transition: transform 0.6s ease-in-out;
-    }
-
-    .carousel-control-next img {
-        filter: none !important;
-    }
-
-    .carousel-control-prev img {
-        filter: none !important;
-    }
-
-    .uc-slider-wrapper {
-        position: relative;
-        padding: 60px 0;
-    }
-
-    .carousel-inner {
-        border-radius: 40px;
-    }
-
-    .uc-carousel {
-        position: relative;
-        overflow: visible;
-    }
-
-    .uc-left {
-        flex: 1;
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .uc-left h3 {
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
-    .uc-left p {
-        font-size: 1rem;
-        margin-top: 10px;
-        opacity: 0.9;
-    }
-
-    .uc-right {
-        flex: 1;
-        background-size: cover;
-        background-position: center;
-        min-height: 250px;
-    }
-
-    /* Arrows with images */
-    .uc-carousel .carousel-control-prev,
-    .uc-carousel .carousel-control-next {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        border: none;
-        background: transparent;
-        width: 50px;
-        height: 50px;
-        z-index: 10;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .uc-carousel .carousel-control-prev {
-        left: -70px;
-    }
-
-    .uc-carousel .carousel-control-next {
-        right: -70px;
-    }
-
-    /* Hide default icon span if any */
-    .uc-carousel .carousel-control-prev-icon,
-    .uc-carousel .carousel-control-next-icon,
-    .uc-arrow {
-        display: none;
-    }
-
-    /* Image styling for arrow */
-    .uc-carousel .carousel-control-prev img,
-    .uc-carousel .carousel-control-next img {
-        width: 100px;
-        height: 100px;
-        object-fit: contain;
-    }
-
-    /* Dots below the card */
-    .uc-carousel .carousel-indicators {
-        position: static;
-        margin-top: 25px;
-    }
-
-    .uc-carousel .carousel-indicators [data-bs-target] {
-        background-color: #fff;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        opacity: 0.4;
-        transition: opacity 0.3s;
-    }
-
-    .uc-carousel .carousel-indicators .active {
-        opacity: 1;
-    }
-
-    .carousel-inner {
-        display: flex;
-        gap: 20px;
-    }
-
-    .carousel-item .uc-card {
-        margin: 0 15px;
-        animation: slideIn 0.6s ease-in-out forwards;
-    }
-
-    @keyframes slideIn {
-        0% {
-            opacity: 0;
-            transform: translateX(100px);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
-    @keyframes slideOut {
-        0% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-
-        100% {
-            opacity: 0;
-            transform: translateX(-100px);
-        }
-    }
-
-
-    /*vsat slider*/
-    /* vsat slider styling */
-
-    .usecase-slider-container {
-        padding: 30px 15px;
-    }
-
-    .usecase-slide {
-        position: relative;
-        border-radius: 20px;
-        overflow: hidden;
-        background-image: url("assets/images/vsat/cargo.png");
-        /* The image used */
-        background-color: #cccccc;
-        /* Used if the image is unavailable */
-        height: 300px;
-        background-position: center;
-        /* Center the image */
-        background-repeat: no-repeat;
-        /* Do not repeat the image */
-        background-size: cover;
-        /* Resize the background image to cover the entire container */
-    }
-
-
-
-    .usecase-content {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        color: white;
-        padding: 20px;
-        height: 100%;
-    }
-
-    .usecase-text {
-        flex: 1 1 50%;
-        padding: 20px;
-    }
-
-    .usecase-text h3 {
-        font-size: 1.8rem;
-        font-weight: 500;
-    }
-
-    .usecase-text p {
-        margin-top: 10px;
-        font-size: 1rem;
-    }
-
-    .usecase-image {
-        flex: 1 1 50%;
-        max-height: 300px;
-        object-fit: cover;
-        border-radius: 0 0 20px 0;
-    }
-
-
-
-    .custom-dots {
-        bottom: -50px;
-    }
-
-    .custom-dots [data-bs-target] {
-        background-color: rgba(255, 255, 255, 0.5);
-        border: none;
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        margin: 0 4px;
-        transition: all 0.3s ease;
-    }
-
-    .custom-dots .active {
-        background-color: white;
-        width: 20px;
-        height: 8px;
-        border-radius: 20px;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-        .usecase-content {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .usecase-text,
-        .usecase-image {
-            flex: 1 1 100%;
-        }
-    }
-
-    .custom-arrow {
-        top: 50%;
-        transform: translateY(-50%);
-        background: transparent;
-        border: none;
-        z-index: 10;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-    }
-
-    .carousel-control-prev {
-        left: -85px;
-    }
-
-    .carousel-control-next {
-        right: -85px;
-    }
-
-    .arrow-container {
-        position: relative;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .arrow-circle {
-        background: linear-gradient(135deg, #e83e8c, #fd7e14);
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .arrow-icon {
-        width: 0;
-        height: 0;
-        border: solid #033059;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 8px;
-    }
-
-    .arrow-left .arrow-icon {
-        transform: rotate(135deg);
-    }
-
-    .arrow-right .arrow-icon {
-        transform: rotate(-45deg);
-    }
-
-
-    .arrow-line {
-        position: absolute;
-        background-color: #033059;
-        height: 3px;
-        width: 56px;
-    }
-
-    .arrow-left .arrow-line {
-
-        margin-right: -36px;
-    }
-
-    .arrow-right .arrow-line {
-        left: -20px;
-        margin-left: 5px;
-    }
-
-    /* vsat slider styling end */
-    /**/
-    .carousel-item.active {
-        animation: slideIn 0.6s ease forwards;
-    }
-
-    .benefits-card {
-        text-align: center;
-        color: white;
-        border-radius: 10px;
-        overflow: hidden;
-        margin-bottom: 20px;
-    }
-
-    .benefits-image {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 30px;
-    }
-
-    .benefits-text {
-        padding: 10px 15px;
-        font-size: 16px;
-    }
-
-    .second-row-benefit {
-        gap: 100px;
-    }
-
-    /* Responsive Styles */
-    @media (max-width: 768px) {
-        .uc-card {
-            flex-direction: column;
-        }
-
-        .uc-left {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .uc-carousel .carousel-control-prev {
-            left: -40px;
-        }
-
-        .uc-carousel .carousel-control-next {
-            right: -40px;
-        }
-
-        .carousel-control-prev {
-            display: none;
-        }
-
-        .carousel-control-next {
-            display: none;
-        }
-
     }
 </style>
 <section class="breadcrumb">
@@ -443,7 +53,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/GSM/Use Cases/Use\ Cases_GSM_Commercial\ Shipping.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Commercial Shipping </h3>
@@ -456,7 +66,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/GSM/Use Cases/Use\ Cases_GSM_Luxury\ Yachts.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Yachting & Leisure </h3>
@@ -468,19 +78,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                                <div class="usecase-content">
-                                    <div class="usecase-text">
-                                        <h3>Commercial Shipping</h3>
-                                        <p>Seamless mobile communication for vessel crew
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/GSM/Use Cases/Use\ Cases_GSM_Offshore\ Energy\ Platforms.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Offshore Operations </h3>
@@ -492,7 +90,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/GSM/Use Cases/Use\ Cases_GSM_Fishing\ Vessels.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Fishing Industry </h3>
@@ -603,7 +201,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-1.jpg" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/GSM/Benefits of Customer/Benefits-for-Customer_GSM_Uninterrupted.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Uninterrupted communication for crew and passengers
                         </div>
@@ -611,7 +209,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-2.jpg" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/GSM/Benefits of Customer/Benefits-for-Customer_GSM_Cost-effective.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Cost-effective alternative to satellite-based services
                         </div>
@@ -619,7 +217,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-3.jpg" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/GSM/Benefits of Customer/Benefits-for-Customer_GSM_Supports-essential.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Supports essential applications such as email, messaging, and web Browse
                         </div>
@@ -630,7 +228,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-4.jpg" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/GSM/Benefits of Customer/Benefits-for-Customer_GSM_Enhances-crew.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Enhances crew welfare with personal mobile network access
                         </div>
@@ -638,7 +236,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-5.jpg" alt="Reduces operational costs with efficient bandwidth management" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/GSM/Benefits of Customer/Benefits-for-Customer_GSM_Reduces-operational.png" alt="Reduces operational costs with efficient bandwidth management" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Reduces operational costs with efficient bandwidth management
                         </div>
@@ -651,58 +249,58 @@ include 'include/header.php';
 
 
 <section class="uc-slider-wrapperr">
-        <section class="mt-5 pt-5 container py-5">
-            <h2 class="text-start mb-5">TECHNICAL SPECIFICATION</h2>
-            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center g-4 g-md-5">
+    <section class="mt-5 pt-5 container py-5">
+        <h2 class="text-start mb-5">TECHNICAL SPECIFICATION</h2>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center g-4 g-md-5">
 
-                <div class="col text-center">
-                    <div class="kb-card kb-models p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
-                        </div>
-                        <p><strong>Coverage:</strong><br> Up to 20 miles<br> offshore</p>
+            <div class="col text-center">
+                <div class="kb-card kb-models p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
                     </div>
-                </div>
-
-                <div class="col text-center">
-                    <div class="kb-card kb-power p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
-                        </div>
-                        <p><strong>Frequency bands:</strong><br> 2G, 3G, 4G, and<br> 5G-ready</p>
-                    </div>
-                </div>
-
-                <div class="col text-center">
-                    <div class="kb-card kb-certifications p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
-                        </div>
-                        <p><strong>Hardware:</strong><br> High-gain external antennas<br> with signal boosters</p>
-                    </div>
-                </div>
-
-                <div class="col text-center">
-                    <div class="kb-card kb-communication p-4 rounded">
-                        <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
-                        </div>
-                        <p><strong>Data speeds:</strong><br> Up to 100 Mbps</p>
-                    </div>
+                    <p><strong>Coverage:</strong><br> Up to 20 miles<br> offshore</p>
                 </div>
             </div>
 
-        </section>
+            <div class="col text-center">
+                <div class="kb-card kb-power p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    </div>
+                    <p><strong>Frequency bands:</strong><br> 2G, 3G, 4G, and<br> 5G-ready</p>
+                </div>
+            </div>
 
-        <!-- vsat slider section end -->
+            <div class="col text-center">
+                <div class="kb-card kb-certifications p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    </div>
+                    <p><strong>Hardware:</strong><br> High-gain external antennas<br> with signal boosters</p>
+                </div>
+            </div>
 
-        <!-- technical sp -->
+            <div class="col text-center">
+                <div class="kb-card kb-communication p-4 rounded">
+                    <div class="icon mb-3">
+                        <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    </div>
+                    <p><strong>Data speeds:</strong><br> Up to 100 Mbps</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- vsat slider section end -->
+
+    <!-- technical sp -->
 
 
 
 
-        <!-- cards -->
-        <!--  -->
+    <!-- cards -->
+    <!--  -->
 </section>
 
 <!-- Fleet CTA Section -->

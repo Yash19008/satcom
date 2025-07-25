@@ -192,11 +192,11 @@
 
       <!-- Center: Social Icons -->
       <div class="col-md-4 mb-3 mb-md-0 footer-center text-center">
-        <a href="#"><img src="assets/images/LinkedIn.svg" class="footer-icon" alt="LinkedIn"></a>
-        <a href="#"><img src="assets/images/Instagram.svg" class="footer-icon" alt="Instagram"></a>
-        <a href="#"><img src="assets/images/Facebook.svg" class="footer-icon" alt="Facebook"></a>
-        <a href="#"><img src="assets/images/Twitter.svg" class="footer-icon" alt="Twitter"></a>
-        <a href="#"><img src="assets/images/WhatsApp.svg" class="footer-icon" alt="WhatsApp"></a>
+        <a href="https://www.linkedin.com/company/station-satcom/"><img src="assets/images/LinkedIn.svg" class="footer-icon" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/stationsatcom/"><img src="assets/images/Instagram.svg" class="footer-icon" alt="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=61577074606628"><img src="assets/images/Facebook.svg" class="footer-icon" alt="Facebook"></a>
+        <a href="https://x.com/Station_Satcom_"><img src="assets/images/Twitter.svg" class="footer-icon" alt="Twitter"></a>
+        <!-- <a href="#"><img src="assets/images/WhatsApp.svg" class="footer-icon" alt="WhatsApp"></a> -->
       </div>
 
       <!-- Right: Page Links -->
