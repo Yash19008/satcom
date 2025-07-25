@@ -276,7 +276,7 @@ include 'include/header.php';
 
 <!-- Fleet CTA Section -->
 
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
     <div class="d-flex">
         <section class="specialist-section container">
             <div class="fleet-cta-container text-center">

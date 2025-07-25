@@ -50,12 +50,6 @@ include 'include/header.php';
     border-radius: 10px;
   }
 
-  .specialist-section-img {
-    background: url('assets/images/footers/Page\ Bottom.png');
-    background-size: cover;
-    background-position: center top;
-    opacity: 0.8;
-  }
 
   .banner-down p {
     text-align: justify;
@@ -369,7 +363,7 @@ include 'include/header.php';
 
 
 <!-- form section -->
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
   <div class="d-flex">
     <section class="specialist-section container">
       <h2 class="specialist-title">CONNECT WITH A SPECIALIST</h2>

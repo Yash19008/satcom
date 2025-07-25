@@ -584,7 +584,7 @@ include 'include/header.php';
   </div>
 </div>
 <!-- form section -->
-<div class="specialist-section-img connectivity" style="background-image: url('assets/images/footers/Page\ Bottom.png')">
+<div class="specialist-section-img connectivitym" style="background-image: url('assets/images/footers/Page\ Bottom.png')">
   <div class="d-flex">
     <section class="specialist-section mt-0 container">
       <h2 class="specialist-title mb-3">GET IN TOUCH</h2>
