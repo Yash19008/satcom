@@ -32,7 +32,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station 365 is an all-in-one IT management solution, providing secure, reliable, and fully managed IT services for maritime operations. It ensures compliance, cybersecurity, and operational efficiency, keeping vessels connected and protected.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -281,7 +281,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Ensure 24/7 IT security and management with Station 365. Contact us now.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
             </div>
 
         </section>

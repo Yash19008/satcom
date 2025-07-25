@@ -443,7 +443,7 @@ include 'include/header.php';
       <p class="fleetbroadband-description">
         Starlink for Business is a high-performance satellite internet solution designed to meet the needs of maritime enterprises. It delivers fast, low-latency broadband connectivity across the globe, ensuring seamless operations, remote communication, and real-time data exchange for commercial fleets, offshore industries, and high-demand maritime applications.
       </p>
-      <a href="#contact" class="fleetbroadband-button mt-4">CONNECT WITH A SPECIALIST</a>
+      <a href="contact-us.php" class="fleetbroadband-button mt-4">CONNECT WITH A SPECIALIST</a>
     </div>
   </div>
 </section>

@@ -199,7 +199,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/operational-product/Operational\ Tech_Remote\ Assisted\ Compass\ Adjustment.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase">Remote Assisted <br>Compass Adjustment </div>
+                        <div class="ips-icon ips-img-1 ">Remote Assisted <br>Compass Adjustment </div>
                         <div class="ips-desc">
                             <p>Ensures precise navigation with expert remote guidance.</p>
                         </div>
@@ -212,7 +212,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/operational-product/Operational\ Tech_Remote\ Navcom.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase">Remote NavCom Service </div>
+                        <div class="ips-icon ips-img-1">Remote NavCom Service </div>
                         <div class="ips-desc">
                             <p>Real-time troubleshooting for marine navigation.</p>
                         </div>

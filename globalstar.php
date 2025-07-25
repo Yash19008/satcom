@@ -430,7 +430,7 @@ include 'include/header.php';
         With rugged hardware and long-lasting power options, SmartOne C and SmartOne Solar ensure uninterrupted visibility of assets —
         even in the harshest environments.
       </p>
-      <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+      <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
     </div>
   </div>
 </section>
@@ -749,7 +749,7 @@ include 'include/header.php';
         <h2 class="fleet-cta-text">
           Track assets anywhere with Globalstar’s rugged satellite tracking.
         </h2>
-        <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+        <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
       </div>
 
     </section>

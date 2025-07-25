@@ -33,7 +33,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 IT Service & Attendance provides comprehensive onboard technical support, ensuring seamless IT operations for maritime fleets. From troubleshooting network issues to optimizing system performance, we deliver expert support where you need it most.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -283,7 +283,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Ensure seamless IT performance onboard. Contact us today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
             </div>
 
         </section>

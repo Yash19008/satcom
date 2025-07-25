@@ -33,7 +33,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station SecureX (previously FutureKonnect) is a next-generation cybersecurity and network management solution designed for maritime fleets. It ensures secure, efficient, and scalable fleet-wide connectivity while simplifying complex network configurations.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -282,7 +282,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Upgrade your fleet’s network security with Station SecureX. Contact us today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
             </div>
 
         </section>

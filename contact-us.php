@@ -174,25 +174,29 @@ include 'include/header.php';
         }
     </style>
 
-    <div class="row mt-5 text-white contact-columns">
-        <div class="col-md-4">
-            <h4>General Inquiries:</h4>
-            <p>sales@stationsatcom.com</p>
-        </div>
-        <div class="col-md-4 middle-column position-relative">
-            <h4>Europe:</h4>
-            <p>sales.eu@stationsatcom.com</p>
-        </div>
-        <div class="col-md-4 last-column position-relative">
-            <h4>UAE:</h4>
-            <p>sales.uae@stationsatcom.com</p>
-        </div>
+<div class="row mt-5 text-white contact-columns">
+    <div class="col-md-4">
+        <h4>General Inquiries:</h4>
+        <p><a href="mailto:sales@stationsatcom.com" class="text-white">sales@stationsatcom.com</a></p>
     </div>
+    <div class="col-md-4 middle-column position-relative">
+        <h4>Europe:</h4>
+        <p><a href="mailto:sales.eu@stationsatcom.com" class="text-white">sales.eu@stationsatcom.com</a></p>
+    </div>
+    <div class="col-md-4 last-column position-relative">
+        <h4>UAE:</h4>
+        <p><a href="mailto:sales.uae@stationsatcom.com" class="text-white">sales.uae@stationsatcom.com</a></p>
+    </div>
+</div>
 
-    <div class="row mt-5 pt-5">
-        <h2 class="mb-3 platforms-title">global support hotline</h2>
-        <p>+91 22 42017800 (India) | +31 108080617 (Europe)</p>
-    </div>
+<div class="row mt-5 pt-5">
+    <h2 class="mb-3 platforms-title">global support hotline</h2>
+    <p>
+        <a href="tel:+912242017800" class="text-white">+91 22 42017800 (India)</a> |
+        <a href="tel:+31108080617" class="text-white">+31 108080617 (Europe)</a>
+    </p>
+</div>
+
 </div>
 
 <!-- View more button -->

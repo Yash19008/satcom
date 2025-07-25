@@ -102,7 +102,7 @@ include 'include/header.php';
         <div class="ips-card text-center card-365">
           <div class="ips-card-arrow"></div>
           <div class="ips-overlay">
-            <div class="ips-icon ips-img-1">STATION 365</div>
+            <div class="ips-icon ips-img-1">Station 365</div>
             <div class="ips-desc">
               <p>Managed & unmanaged IT services for proactive system monitoring.</p>
             </div>
@@ -111,11 +111,11 @@ include 'include/header.php';
       </a>
     </div>
     <div class="col">
-      <a href="station_365.php">
+      <a href="station_rock.php">
         <div class="ips-card text-center card-rock">
           <div class="ips-card-arrow"></div>
           <div class="ips-overlay">
-            <div class="ips-icon ips-img-1">STATION R.O.C.K</div>
+            <div class="ips-icon ips-img-1">Station R.O.C.K</div>
             <div class="ips-desc">
               <p>Plug-and-play IT solutions designed for fast, reliable, and secure connectivity.</p>
             </div>

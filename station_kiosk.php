@@ -33,7 +33,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station Kiosk is a digital content management system designed for vessels. It transforms onboard screens into interactive hubs for news, training, operational updates, and crew engagement.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -283,7 +283,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Upgrade your vessel’s communication with Station Kiosk. Contact us today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
             </div>
 
         </section>

@@ -12,7 +12,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -33,7 +33,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station Care is a maritime health and welfare solution offering 24/7 telehealth services, mental health support, and proactive health monitoring to ensure seafarers' well-being.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -48,7 +48,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative" style="background-image: url('assets/images/crew-engagement/station-care/use-cases/Use\ Cases_Station\ Care_Commercial\ Shipping.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -62,7 +62,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative" style="background-image: url('assets/images/crew-engagement/station-care/use-cases/Use\ Cases_Station\ Care_Offshore\ Energy\ Platforms.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -75,7 +75,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative" style="background-image: url('assets/images/crew-engagement/station-care/use-cases/Use\ Cases_Station\ Care_Luxury\ Yachts.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -88,7 +88,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative" style="background-image: url('assets/images/crew-engagement/station-care/use-cases/Use\ Cases_Station\ Care_Government\ &\ Defense.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -151,7 +151,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/crew-engagement/station-care/key-features/24 7 monitoring and diagnostics..svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Instant access to medical<br> professionals.</p>
             </div>
@@ -161,7 +161,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/crew-engagement/station-care/key-features/Mental Health Support.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Confidential counseling and <br>evaluations.</p>
             </div>
@@ -171,7 +171,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/crew-engagement/station-care/key-features/Health Monitoring.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Routine checks and micro-learning <br>materials.</p>
             </div>
@@ -181,7 +181,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/crew-engagement/station-care/key-features/Regulatory Compliance.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Meets MLC 2006 and crew <br>welfare laws.</p>
             </div>
@@ -201,7 +201,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Care/Benefits-for-Customers/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/station-care/benefits-for-customers/Benefits Of Customer_Station Care_Crew welfare.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Prevents medical emergencies with proactive care.
                         </div>
@@ -209,7 +209,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Care/Benefits-for-Customers/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/station-care/benefits-for-customers/Benefits Of Customer_Station Care_Reduced Printing Costs.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Reduces unnecessary medical diversions.
                         </div>
@@ -217,7 +217,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Care/Benefits-for-Customers/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/station-care/benefits-for-customers/Benefits Of Customer_Station Care_Operational Efficiency.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Healthier crew members lead to improved productivity.
                         </div>
@@ -228,7 +228,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Care/Benefits-for-Customers/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/station-care/benefits-for-customers/Benefits Of Customer_Station Care_Enhanced Morale.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensures mental and physical well-being at sea.
                         </div>
@@ -254,7 +254,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/crew-engagement/station-care/technical-specifications/telehealth platform.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Encrypted telehealth platform.</strong></p>
             </div>
@@ -263,7 +263,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/crew-engagement/station-care/technical-specifications/Mental Health Support.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Integrated mental health assessments.</strong></p>
             </div>
@@ -272,7 +272,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/crew-engagement/station-care/technical-specifications/Secure DRM.svg" alt="Hardware Icon">
                 </div>
                 <p><strong>HIPAA & GDPR-compliant data security.</strong></p>
             </div>
@@ -281,7 +281,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-communication p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    <img src="assets/images/crew-engagement/station-care/technical-specifications/Multi-device compatibility.svg" alt="Data speeds Icon">
                 </div>
                 <p><strong>Multi-device compatibility.</strong></p>
             </div>
@@ -299,7 +299,7 @@ include 'include/header.php';
             <div class="fleet-cta-container text-center">
                 <h2 class="fleet-cta-text">
                     Ensure the well-being of your crew with Station Care. Contact us now. </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

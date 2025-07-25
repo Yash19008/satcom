@@ -11,7 +11,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -32,7 +32,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station Watch CCTV is a state-of-the-art maritime surveillance system, providing real-time monitoring, enhanced security, and remote access for vessels. Optimized for maritime bandwidth, it ensures seamless video streaming and compliance with operational safety regulations.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -46,7 +46,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative" style="background-image: url('assets/images/operational-product/station-watch/use-cases/Use\ Cases_Station\ Watch\ CCTV_Commercial\ Shipping.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -60,7 +60,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative" style="background-image: url('assets/images/operational-product/station-watch/use-cases/Use\ Cases_Station\ Watch\ CCTV_Offshore\ Energy\ Platforms.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -73,7 +73,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative" style="background-image: url('assets/images/operational-product/station-watch/use-cases/Use\ Cases_Station\ Watch\ CCTV_Luxury\ Yachts.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -86,7 +86,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative" style="background-image: url('assets/images/operational-product/station-watch/use-cases/Use\ Cases_Station\ Watch\ CCTV_Ferries\ &\ Passenger\ Vessels.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -149,7 +149,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/operational-product/station-watch/key-features/Remote Viewing.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Secure access to live and recorded <br>footage from anywhere.
                 </p>
@@ -160,7 +160,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/operational-product/station-watch/key-features/Low Bandwidth.svg" alt="5G-ready technology icon">
                 </div>
                 <p>High-quality video with minimal <br>data usage.</p>
             </div>
@@ -170,7 +170,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/operational-product/station-watch/key-features/Compliance Ready.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Meets maritime safety and <br>security regulations.
                 </p>
@@ -181,7 +181,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/operational-product/station-watch/key-features/Multi-Camera Integration.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Supports various camera brands <br>for a flexible setup.
                 </p>
@@ -212,7 +212,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Watch/Benefits/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/station-watch/benefits-of-customer/Benefits Of Customer_Station Watch CCTV_Enhanced Vessel Security.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Prevent unauthorized access and monitor onboard activities.
                         </div>
@@ -220,7 +220,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Watch/Benefits/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/station-watch/benefits-of-customer/Benefits Of Customer_Station Watch CCTV_Reduced Operational Risk.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Monitor equipment and crew performance in real time.
                         </div>
@@ -228,7 +228,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Watch/Benefits/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/station-watch/benefits-of-customer/Benefits Of Customer_Station Watch CCTV_Regulatory Compliance.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensure adherence to safety regulations and incident reporting.
                         </div>
@@ -239,7 +239,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Watch/Benefits/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/station-watch/benefits-of-customer/Benefits Of Customer_Station Watch CCTV_Remote IT Monitoring.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Access critical footage remotely for fleet-wide oversight.
                         </div>
@@ -266,7 +266,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/operational-product/station-watch/technical-specifications/Integration.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>IP-rated weatherproof cameras.</strong></p>
             </div>
@@ -275,7 +275,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/operational-product/station-watch/technical-specifications/Remote access.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Remote access via mobile and desktop applications.</strong></p>
             </div>
@@ -284,7 +284,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/operational-product/station-watch/technical-specifications/AI-powered motion detection and alerts..svg" alt="Hardware Icon">
                 </div>
                 <p><strong>AI-powered motion detection and alerts.</strong></p>
             </div>
@@ -293,7 +293,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-communication p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    <img src="assets/images/operational-product/station-watch/technical-specifications/Secure cloud or local storage options.svg" alt="Data speeds Icon">
                 </div>
                 <p><strong>Secure cloud or local storage options.</strong></p>
             </div>
@@ -311,7 +311,7 @@ include 'include/header.php';
             <div class="fleet-cta-container text-center">
                 <h2 class="fleet-cta-text">
                     Upgrade your vessel’s security with Station Watch CCTV. Contact us today. </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

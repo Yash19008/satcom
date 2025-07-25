@@ -40,7 +40,7 @@ include 'include/header.php';
         <p>
           With over 25 years of expertise, we help businesses thrive in the world’s most demanding environments.
         </p>
-        <button class="btn btn-discover">Discover More About Us</button>
+        <a href="about-us.php" class="btn btn-discover">Discover More About Us</a>
 
       </div>
     </div>

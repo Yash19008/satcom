@@ -25,7 +25,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -205,8 +205,6 @@ include 'include/header.php';
         /* Center the image */
         background-repeat: no-repeat;
         /* Do not repeat the image */
-        background-size: cover;
-        /* Resize the background image to cover the entire container */
     }
 
 
@@ -428,7 +426,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Starlink for Crew delivers high-speed, low-latency satellite internet to individual crew members, ensuring seamless connectivity for personal communication, entertainment, and welfare.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -489,7 +487,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('assets/images/crew-engagement/starlink-for-crew/use-cases/Use\ Cases_Starlink\ for\ crew_Commercial\ Shipping.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Commercial Shipping </h3>
@@ -502,7 +500,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('assets/images/crew-engagement/starlink-for-crew/use-cases/Use\ Cases_Starlink\ for\ crew_Fishing\ Vessels.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Fishing Vessels</h3>
@@ -514,7 +512,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('assets/images/crew-engagement/starlink-for-crew/use-cases/Use\ Cases_Starlink\ for\ crew_Yachts\ &\ Cruise\ Ships.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Cruise Lines</h3>
@@ -526,7 +524,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('assets/images/crew-engagement/starlink-for-crew/use-cases/Use\ Cases_Starlink\ for\ crew_Luxury\ Yachts.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Yachts & Ferries </h3>
@@ -588,7 +586,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/crew-engagement/starlink-for-crew/key-features/Global Coverage.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Internet access across all <br>major shipping lanes.</p>
             </div>
@@ -598,7 +596,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/crew-engagement/starlink-for-crew/key-features/High-Speed, Low-Latency Performance.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Seamless browsing, streaming, <br>and communication.</p>
             </div>
@@ -608,7 +606,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/crew-engagement/starlink-for-crew/key-features/Flexible Subscription Plans.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Pay-as-you-go options tailored <br>to crew needs.</p>
             </div>
@@ -618,7 +616,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/crew-engagement/starlink-for-crew/key-features/Easy Installation & Management.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Hassle-free onboarding <br>and usage.</p>
             </div>
@@ -638,7 +636,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-1.jpg" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/starlink-for-crew/benefits-for-customers/Benefits Of Customer_Starlink for crew_Boosts Crew Morale.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Keeps crew connected with loved ones.
                         </div>
@@ -646,7 +644,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-2.jpg" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/starlink-for-crew/benefits-for-customers/Benefits Of Customer_Starlink for crew_Reduces Turnover Rates.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                            Enhances job satisfaction and well-being.
                         </div>
@@ -654,7 +652,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-3.jpg" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/starlink-for-crew/benefits-for-customers/Benefits Of Customer_Starlink for crew_Digital Learning.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Access to online courses and professional development.
                         </div>
@@ -665,7 +663,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-4.jpg" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/starlink-for-crew/benefits-for-customers/Benefits Of Customer_Starlink for crew_Cost effective for crew members.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                            Affordable internet access tailored for seafarers.
                         </div>
@@ -691,7 +689,7 @@ include 'include/header.php';
                 <div class="col text-center">
                     <div class="kb-card kb-models p-4 rounded">
                         <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                            <img src="assets/images/crew-engagement/starlink-for-crew/technical-specifications/Download speeds.svg" alt="Coverage Icon">
                         </div>
                         <p><strong>Download speeds:</strong> <br>40-220 Mbps.</p>
                     </div>
@@ -700,7 +698,7 @@ include 'include/header.php';
                 <div class="col text-center">
                     <div class="kb-card kb-power p-4 rounded">
                         <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                            <img src="assets/images/crew-engagement/starlink-for-crew/technical-specifications/Upload speeds.svg" alt="Frequency bands Icon">
                         </div>
                         <p><strong>Upload speeds:</strong><br>10-25 Mbps.</p>
                     </div>
@@ -709,7 +707,7 @@ include 'include/header.php';
                 <div class="col text-center">
                     <div class="kb-card kb-certifications p-4 rounded">
                         <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                            <img src="assets/images/crew-engagement/starlink-for-crew/technical-specifications/Latency.svg" alt="Hardware Icon">
                         </div>
                         <p><strong>Latency: </strong><br> <99ms.</p>
                     </div>
@@ -718,7 +716,7 @@ include 'include/header.php';
                 <div class="col text-center">
                     <div class="kb-card kb-communication p-4 rounded">
                         <div class="icon mb-3">
-                            <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                            <img src="assets/images/crew-engagement/starlink-for-crew/technical-specifications/Remote network management.svg" alt="Data speeds Icon">
                         </div>
                         <p>Remote network management <br>via web portal.</p>
                     </div>
@@ -737,7 +735,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                    Enhance crew connectivity with Starlink. Contact us now
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

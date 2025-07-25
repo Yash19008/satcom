@@ -23,7 +23,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -441,7 +441,7 @@ include 'include/header.php';
             <p class="globalstar-description">
               Station Satcom’s Remote NavCom Service provides real-time troubleshooting, diagnostics, and software updates for marine navigation and communication systems, reducing the need for physical service visits and ensuring continuous operational efficiency.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -449,60 +449,13 @@ include 'include/header.php';
 <section class="uc-slider-wrapperr mt-5 pt-5">
     <div class="container">
         <h2 class="text-start mb-5">USE CASES</h2>
-
-        <!--  <div id="ucCarousel" class="carousel slide uc-carousel" data-bs-ride="carousel">-->
-        <!--    <div class="carousel-inner">-->
-        <!-- Slide 1 -->
-        <!--      <div class="carousel-item active" style="background-image: url('assets/images/vsat/cargo.png');">-->
-        <!--        <div class="uc-card">-->
-        <!--          <div class="uc-left">-->
-        <!--            <h3>Commercial Shipping</h3>-->
-        <!--            <p>Real-time data exchange for fleet<br> management and operational efficiency</p>-->
-        <!--          </div>-->
-        <!--          <div class="uc-right" ></div>-->
-        <!--        </div>-->
-        <!--      </div>-->
-
-        <!-- Slide 2 -->
-        <!--      <div class="carousel-item" style="background-image: url('assets/images/vsat/cargo.png');">-->
-        <!--        <div class="uc-card">-->
-        <!--          <div class="uc-left">-->
-        <!--            <h3>Smart Logistics</h3>-->
-        <!--            <p>Enhanced route planning and live tracking for smarter logistics operations</p>-->
-        <!--          </div>-->
-        <!--          <div class="uc-right" ></div>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-
-        <!-- Arrows -->
-        <!-- Left Arrow -->
-        <!--      <button class="carousel-control-prev" type="button" data-bs-target="#ucCarousel" data-bs-slide="prev">-->
-        <!--        <img src="assets/images/vsat/arrow.svg" alt="Prev" class="uc-arrow-img" />-->
-        <!--      </button>-->
-
-        <!-- Right Arrow -->
-        <!--      <button class="carousel-control-next" type="button" data-bs-target="#ucCarousel" data-bs-slide="next">-->
-        <!--        <img src="assets/images/vsat/arrowcopy.svg" alt="Next" class="uc-arrow-img" />-->
-        <!--      </button>-->
-
-
-        <!-- Dots -->
-        <!--    <div class="carousel-indicators">-->
-        <!--      <button type="button" data-bs-target="#ucCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>-->
-        <!--      <button type="button" data-bs-target="#ucCarousel" data-bs-slide-to="1"></button>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</div>-->
-        <!-- vsat slider section start -->
-
         <div class="container-fluid usecase-slider-container ">
             <div id="usecaseSlider" class="carousel slide usecase-carousel" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1" style="background-image: url('assets/images/operational-product/remote-navCom/use-cases/Use\ Cases_Remote\ NavCom\ Service_Commercial\ Shipping.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Commercial Fleets</h3>
@@ -515,7 +468,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2" style="background-image: url('assets/images/operational-product/remote-navCom/use-cases/Use\ Cases_Remote\ NavCom\ Service_Offshore\ Energy\ Platforms.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Offshore Oil & Gas</h3>
@@ -527,7 +480,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3" style="background-image: url('assets/images/operational-product/remote-navCom/use-cases/Use\ Cases_Remote\ NavCom\ Service_Yachts\ &\ Cruise\ Ships.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Cruise & Passenger Ships</h3>
@@ -539,7 +492,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4" style="background-image: url('assets/images/operational-product/remote-navCom/use-cases/Use\ Cases_Remote\ NavCom\ Service_Fishing\ Vessels.png'); ">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Fishing Vessels</h3>
@@ -601,7 +554,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/operational-product/remote-navCom/key-features/Remote access.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Identify and resolve issues <br>without onboard visits.
                 </p>
@@ -612,7 +565,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/operational-product/remote-navCom/key-features/Detailed Deviation Analysis.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Keep navigation and communication <br>systems updated.</p>
             </div>
@@ -622,7 +575,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/operational-product/remote-navCom/key-features/ISO 25862 compliance for compass adjustment.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Support available worldwide, ensuring <br>seamless service at sea.
                 </p>
@@ -633,7 +586,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/operational-product/remote-navCom/key-features/Remote access.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Trained NavCom engineers assist <br>in resolving software and <br>hardware challenges.
                 </p>
@@ -664,7 +617,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Remote/Benefits/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/remote-navCom/benefits-of-customer/Benefits Of Customer_Remote NavCom Service_Reduced Downtime.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                           Avoid service delays and maintain uninterrupted operations.
                         </div>
@@ -672,7 +625,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Remote/Benefits/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/remote-navCom/benefits-of-customer/Benefits Of Customer_Remote NavCom Service_Cost-Effective Solution.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                            Minimize expenses related to onboard technical visits.
                         </div>
@@ -680,7 +633,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Remote/Benefits/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/remote-navCom/benefits-of-customer/Benefits Of Customer_Remote NavCom Service_Enhanced System Performance.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensure optimal functionality of navigation and communication systems.
                         </div>
@@ -691,7 +644,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Remote/Benefits/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/remote-navCom/benefits-of-customer/Benefits Of Customer_Remote NavCom Service_Regulatory Compliance.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                          Keep systems updated and aligned with regulatory standards.
                         </div>
@@ -718,7 +671,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/operational-product/remote-navCom/technical-specifications/Remote analysis and deviation correction.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Secure remote access to onboard systems.</strong></p>
             </div>
@@ -727,7 +680,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/operational-product/remote-navCom/technical-specifications/ISO 25862 compliance for compass adjustment.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Compatible with major navigation and communication equipment.</strong></p>
             </div>
@@ -736,7 +689,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/operational-product/remote-navCom/technical-specifications/24 7 monitoring and diagnostics..svg" alt="Hardware Icon">
                 </div>
                 <p><strong>24/7 monitoring and diagnostics.</strong></p>
             </div>
@@ -745,7 +698,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-communication p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    <img src="assets/images/operational-product/remote-navCom/technical-specifications/Crew-assisted deviation.svg" alt="Data speeds Icon">
                 </div>
                 <p><strong>Regular software updates and security patches.</strong></p>
             </div>
@@ -764,7 +717,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                    Ensure uninterrupted navigation and communication with our Remote NavCom Service. Get in touch today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

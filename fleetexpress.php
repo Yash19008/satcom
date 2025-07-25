@@ -426,7 +426,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Fleet Xpress delivers for evolving businesses. It brings together the best of Inmarsat's connectivity solutions - unrivalled flexibility to consolidate and scale IT requirements with a combination of satellite connectivity solutions, and takes place over a trusted endpoint.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -703,7 +703,7 @@ include 'include/header.php';
                     today.
 
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Get in touch today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Get in touch today.</a>
             </div>
 
         </section>

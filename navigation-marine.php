@@ -25,7 +25,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -443,7 +443,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station Satcom supplies and retrofits high-quality navigation and bridge equipment from leading maritime brands, ensuring vessels remain compliant, efficient, and technologically advanced.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -451,60 +451,13 @@ include 'include/header.php';
 <section class="uc-slider-wrapperr mt-5 pt-5">
     <div class="container">
         <h2 class="text-start mb-5">USE CASES</h2>
-
-        <!--  <div id="ucCarousel" class="carousel slide uc-carousel" data-bs-ride="carousel">-->
-        <!--    <div class="carousel-inner">-->
-        <!-- Slide 1 -->
-        <!--      <div class="carousel-item active" style="background-image: url('assets/images/vsat/cargo.png');">-->
-        <!--        <div class="uc-card">-->
-        <!--          <div class="uc-left">-->
-        <!--            <h3>Commercial Shipping</h3>-->
-        <!--            <p>Real-time data exchange for fleet<br> management and operational efficiency</p>-->
-        <!--          </div>-->
-        <!--          <div class="uc-right" ></div>-->
-        <!--        </div>-->
-        <!--      </div>-->
-
-        <!-- Slide 2 -->
-        <!--      <div class="carousel-item" style="background-image: url('assets/images/vsat/cargo.png');">-->
-        <!--        <div class="uc-card">-->
-        <!--          <div class="uc-left">-->
-        <!--            <h3>Smart Logistics</h3>-->
-        <!--            <p>Enhanced route planning and live tracking for smarter logistics operations</p>-->
-        <!--          </div>-->
-        <!--          <div class="uc-right" ></div>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-
-        <!-- Arrows -->
-        <!-- Left Arrow -->
-        <!--      <button class="carousel-control-prev" type="button" data-bs-target="#ucCarousel" data-bs-slide="prev">-->
-        <!--        <img src="assets/images/vsat/arrow.svg" alt="Prev" class="uc-arrow-img" />-->
-        <!--      </button>-->
-
-        <!-- Right Arrow -->
-        <!--      <button class="carousel-control-next" type="button" data-bs-target="#ucCarousel" data-bs-slide="next">-->
-        <!--        <img src="assets/images/vsat/arrowcopy.svg" alt="Next" class="uc-arrow-img" />-->
-        <!--      </button>-->
-
-
-        <!-- Dots -->
-        <!--    <div class="carousel-indicators">-->
-        <!--      <button type="button" data-bs-target="#ucCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>-->
-        <!--      <button type="button" data-bs-target="#ucCarousel" data-bs-slide-to="1"></button>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</div>-->
-        <!-- vsat slider section start -->
-
         <div class="container-fluid usecase-slider-container ">
             <div id="usecaseSlider" class="carousel slide usecase-carousel" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1" style="background-image: url('assets/images/operational-product/navigation-marine/use-cases/Use\ Cases_Navigation\ &\ Equipment\ and\ Retrofits_Commercial\ Shipping.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Commercial Fleets</h3>
@@ -517,7 +470,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2" style="background-image: url('assets/images/operational-product/navigation-marine/use-cases/Use\ Cases_Navigation\ &\ Equipment\ and\ Retrofits_Fishing\ Vessels.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Fishing Vessels</h3>
@@ -529,7 +482,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3" style="background-image: url('assets/images/operational-product/navigation-marine/use-cases/Use\ Cases_Navigation\ &\ Equipment\ and\ Retrofits_Luxury\ Yachts.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Luxury Yachts</h3>
@@ -541,7 +494,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4" style="background-image: url('assets/images/operational-product/navigation-marine/use-cases/Use\ Cases_Navigation\ &\ Equipment\ and\ Retrofits_Government\ &\ Defense.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Government & Defense</h3>
@@ -603,7 +556,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/operational-product/navigation-marine/key-features/Comprehensive Navigation Solutions.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>ECDIS, radar, GPS, autopilot, <br>and more.
                 </p>
@@ -614,7 +567,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/operational-product/navigation-marine/key-features/Global Dry Docking Support.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Retrofitting and maintenance <br>services worldwide.</p>
             </div>
@@ -624,7 +577,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/operational-product/navigation-marine/key-features/Multi-Brand Compatibility.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Support for top-tier <br>manufacturers.
                 </p>
@@ -635,7 +588,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/operational-product/navigation-marine/key-features/Regulatory Compliance.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Ensures adherence to IMO and <br>SOLAS requirements.
                 </p>
@@ -666,7 +619,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Navigation-Marine/Benefits/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/navigation-marine/benefits-of-customer/Benefits Of Customer_Navigation & Marine Equipment and Retrofits_Seamless Upgrades.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Transition to modern navigation technology effortlessly.
                         </div>
@@ -674,7 +627,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Navigation-Marine/Benefits/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/navigation-marine/benefits-of-customer/Benefits Of Customer_Navigation & Marine Equipment and Retrofits_Improved Safety & Efficiency.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Enhance route planning, situational awareness, and collision avoidance.
                         </div>
@@ -682,7 +635,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Navigation-Marine/Benefits/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/navigation-marine/benefits-of-customer/Benefits Of Customer_Navigation & Marine Equipment and Retrofits_Extended Equipment Lifespan.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Upgrade legacy systems for long-term savings.
                         </div>
@@ -693,7 +646,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Navigation-Marine/Benefits/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/navigation-marine/benefits-of-customer/Benefits Of Customer_Navigation & Marine Equipment and Retrofits_Fleet-Wide Standardization.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensure consistent navigation solutions across vessels.
                         </div>
@@ -720,7 +673,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/operational-product/navigation-marine/technical-specifications/Support for ECDIS, GPS, AIS.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Support for ECDIS, GPS, AIS, and other bridge systems.</strong></p>
             </div>
@@ -729,7 +682,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/operational-product/navigation-marine/technical-specifications/Integrated Bandwidth.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Integration with onboard IT infrastructure.</strong></p>
             </div>
@@ -738,7 +691,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/operational-product/navigation-marine/technical-specifications/Custom retrofitting.svg" alt="Hardware Icon">
                 </div>
                 <p><strong>Custom retrofitting solutions for varied vessel sizes.</strong></p>
             </div>
@@ -765,7 +718,7 @@ include 'include/header.php';
             <div class="fleet-cta-container text-center">
                 <h2 class="fleet-cta-text">
                     Upgrade your vessel’s navigation systems with Station Satcom. Contact us now. </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

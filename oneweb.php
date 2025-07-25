@@ -436,7 +436,7 @@ include 'include/header.php';
             <h1 class="fleetbroadband-title">ONEWEB</h1>
             <p class="fleetbroadband-description">
                 OneWeb delivers low-latency, high-speed broadband powered<br> by a Low Earth Orbit (LEO) satellite constellation. It ensures <br>seamless global coverage for maritime operations, enabling <br>enhanced communication, navigation, and data exchange.</p>
-            <a href="#contact" class="fleetbroadband-button mt-4">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="fleetbroadband-button mt-4">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -777,7 +777,7 @@ include 'include/header.php';
                     <h2 class="fleet-cta-text">
                         Upgrade your fleet with OneWeb's <br>cutting-edge sattellite connectivity
                     </h2>
-                    <a href="#contact" class="fleet-cta-button">Get in touch today.</a>
+                    <a href="contact-us.php" class="fleet-cta-button">Get in touch today.</a>
                 </div>
 
             </section>

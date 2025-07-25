@@ -429,7 +429,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Our maritime GSM solutions provide reliable mobile network coverage for vessels, ensuring seamless voice and data communication even in offshore locations. Our advanced GSM boosters enable extended coverage for uninterrupted connectivity.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -714,7 +714,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Enhance your vessel’s mobile connectivity with our GSM solutions.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
             </div>
 
         </section>

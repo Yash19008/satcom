@@ -12,7 +12,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -34,7 +34,7 @@ include 'include/header.php';
                 Station Multiplex is an advanced IPTV solution providing an enriched onboard entertainment experience. With curated live TV channels, optimized streaming, and global ocean coverage, it ensures high-quality entertainment for crew members at sea.
 
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -48,7 +48,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative" style="background-image: url('assets/images/crew-engagement/stationmultiplex/use-cases/Use\ Cases_Station\ Multiplex_Commercial\ Shipping.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -62,7 +62,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative"  style="background-image: url('assets/images/crew-engagement/stationmultiplex/use-cases/Use\ Cases_Station\ Multiplex_Fishing\ Vessels.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -75,7 +75,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative" style="background-image: url('assets/images/crew-engagement/stationmultiplex/use-cases/Use\ Cases_Station\ Multiplex_Yachts\ &\ Cruise\ Ships.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -88,7 +88,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative" style="background-image: url('assets/images/crew-engagement/stationmultiplex/use-cases/Use\ Cases_Station\ Multiplex_Offshore\ Energy\ Platforms.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -151,7 +151,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/key-features/12 Live TV Channels.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Diverse entertainment, including news, <br>sports, and movies.
                 </p>
@@ -162,7 +162,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/key-features/streaming technology.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Efficient delivery without high <br>data consumption.</p>
             </div>
@@ -172,7 +172,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/key-features/" alt="Secure network infrastructure icon">
                 </div>
                 <p>Cloud-based content distribution.
                 </p>
@@ -183,7 +183,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/key-features/Compliance Ready.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Ensures adherence to maritime <br>welfare standards.
                 </p>
@@ -214,7 +214,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Multiplex/Benefits-for-Customers/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/stationmultiplex/benefits-for-customers/Benefits Of Customer_Station Multiplex_Enhanced Crew Welfare.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Reduces isolation and improves morale.
                         </div>
@@ -222,7 +222,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Multiplex/Benefits-for-Customers/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/stationmultiplex/benefits-for-customers/Benefits Of Customer_Station Multiplex_Regulatory Compliance.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Meets new maritime recreational requirements.
                         </div>
@@ -230,7 +230,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Multiplex/Benefits-for-Customers/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/stationmultiplex/benefits-for-customers/Benefits Of Customer_Station Multiplex_Cost-Effective Solution.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             No need for additional hardware installations.
                         </div>
@@ -241,7 +241,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Station-Multiplex/Benefits-for-Customers/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/crew-engagement/stationmultiplex/benefits-for-customers/Benefits Of Customer_Station Multiplex_Cultural Diversity.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Content tailored to international crew preferences.
                         </div>
@@ -268,7 +268,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/technical-specifications/12 Live TV Channels.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Live TV via satellite and internet.</strong></p>
             </div>
@@ -277,7 +277,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/technical-specifications/" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Adaptive streaming technology.</strong></p>
             </div>
@@ -286,7 +286,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/technical-specifications/Secure DRM.svg" alt="Hardware Icon">
                 </div>
                 <p><strong>Secure DRM-protected content delivery.</strong></p>
             </div>
@@ -295,7 +295,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-communication p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    <img src="assets/images/crew-engagement/stationmultiplex/technical-specifications/Multi-language channel support..svg" alt="Data speeds Icon">
                 </div>
                 <p><strong>Multi-language channel support.</strong></p>
             </div>
@@ -314,7 +314,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Upgrade onboard entertainment with Station Multiplex. Get in touch today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

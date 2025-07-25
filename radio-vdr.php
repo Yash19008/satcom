@@ -25,7 +25,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -443,7 +443,7 @@ include 'include/header.php';
             <p class="globalstar-description">
               Station Satcom provides certified radio survey and Voyage Data Recorder (VDR) Annual Performance Testing (APT) services, ensuring vessels meet international maritime communication and safety standards.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -451,60 +451,13 @@ include 'include/header.php';
 <section class="uc-slider-wrapperr mt-5 pt-5">
     <div class="container">
         <h2 class="text-start mb-5">USE CASES</h2>
-
-        <!--  <div id="ucCarousel" class="carousel slide uc-carousel" data-bs-ride="carousel">-->
-        <!--    <div class="carousel-inner">-->
-        <!-- Slide 1 -->
-        <!--      <div class="carousel-item active" style="background-image: url('assets/images/vsat/cargo.png');">-->
-        <!--        <div class="uc-card">-->
-        <!--          <div class="uc-left">-->
-        <!--            <h3>Commercial Shipping</h3>-->
-        <!--            <p>Real-time data exchange for fleet<br> management and operational efficiency</p>-->
-        <!--          </div>-->
-        <!--          <div class="uc-right" ></div>-->
-        <!--        </div>-->
-        <!--      </div>-->
-
-        <!-- Slide 2 -->
-        <!--      <div class="carousel-item" style="background-image: url('assets/images/vsat/cargo.png');">-->
-        <!--        <div class="uc-card">-->
-        <!--          <div class="uc-left">-->
-        <!--            <h3>Smart Logistics</h3>-->
-        <!--            <p>Enhanced route planning and live tracking for smarter logistics operations</p>-->
-        <!--          </div>-->
-        <!--          <div class="uc-right" ></div>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-
-        <!-- Arrows -->
-        <!-- Left Arrow -->
-        <!--      <button class="carousel-control-prev" type="button" data-bs-target="#ucCarousel" data-bs-slide="prev">-->
-        <!--        <img src="assets/images/vsat/arrow.svg" alt="Prev" class="uc-arrow-img" />-->
-        <!--      </button>-->
-
-        <!-- Right Arrow -->
-        <!--      <button class="carousel-control-next" type="button" data-bs-target="#ucCarousel" data-bs-slide="next">-->
-        <!--        <img src="assets/images/vsat/arrowcopy.svg" alt="Next" class="uc-arrow-img" />-->
-        <!--      </button>-->
-
-
-        <!-- Dots -->
-        <!--    <div class="carousel-indicators">-->
-        <!--      <button type="button" data-bs-target="#ucCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>-->
-        <!--      <button type="button" data-bs-target="#ucCarousel" data-bs-slide-to="1"></button>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</div>-->
-        <!-- vsat slider section start -->
-
         <div class="container-fluid usecase-slider-container ">
             <div id="usecaseSlider" class="carousel slide usecase-carousel" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1" style="background-image: url('assets/images/operational-product/Radio-vdr/use-cases/Use\ Cases_Radio\ &\ VDR\ APT_Commercial\ Shipping.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Commercial Shipping</h3>
@@ -517,7 +470,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2" style="background-image: url('assets/images/operational-product/Radio-vdr/use-cases/Use\ Cases_Radio\ &\ VDR\ APT_Oil\ &\ Gas\ Operations.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Offshore Oil & Gas</h3>
@@ -529,7 +482,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3" style="background-image: url('assets/images/operational-product/Radio-vdr/use-cases/Use\ Cases_Radio\ &\ VDR\ APT_Ferries\ &\ Passenger\ Vessels.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Passenger Vessels</h3>
@@ -541,7 +494,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4" style="background-image: url('assets/images/operational-product/Radio-vdr/use-cases/Use\ Cases_Radio\ &\ VDR\ APT_Fishing\ Vessels.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Fishing Industry</h3>
@@ -603,7 +556,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/operational-product/Radio-vdr/key-features/Certified Radio Surveys.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Compliance with IMO and <br>SOLAS requirements.
                 </p>
@@ -614,7 +567,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/operational-product/Radio-vdr/key-features/VDR APT Services.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Annual testing for optimal performance <br>and data integrity.</p>
             </div>
@@ -624,7 +577,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/operational-product/Radio-vdr/key-features/Multi-Brand Support.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Certified services for major radio <br>and VDR manufacturers.
                 </p>
@@ -635,7 +588,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/operational-product/Radio-vdr/key-features/Multi-Brand Support.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Reduce downtime with fast <br>issue resolution.
                 </p>
@@ -666,7 +619,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Radio-VDR/Benefits/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/Radio-vdr/benefits-of-customer/Benefits Of Customer_Radio & VDR APT_Regulatory Compliance.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensure vessels meet international safety mandates.
                         </div>
@@ -674,7 +627,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Radio-VDR/Benefits/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/Radio-vdr/benefits-of-customer/Benefits Of Customer_Radio & VDR APT_Operational Efficiency.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                           Reliable data recording for incident analysis.
                         </div>
@@ -682,7 +635,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Radio-VDR/Benefits/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/Radio-vdr/benefits-of-customer/Benefits Of Customer_Radio & VDR APT_Reduced Downtime.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                           Quick diagnostics and repairs prevent voyage disruptions.
                         </div>
@@ -693,7 +646,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Radio-VDR/Benefits/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/Radio-vdr/benefits-of-customer/Benefits Of Customer_Radio & VDR APT_Expert Support.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                         Skilled technicians for onboard and remote servicing.
                         </div>
@@ -720,7 +673,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/operational-product/Radio-vdr/technical-specifications/Certified service.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Certified service for all major radio and VDR brands.</strong></p>
             </div>
@@ -729,7 +682,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/operational-product/Radio-vdr/technical-specifications/Compliance with IMO, SOLAS.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Compliance with IMO, SOLAS, and GMDSS regulations.</strong></p>
             </div>
@@ -738,7 +691,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/operational-product/Radio-vdr/technical-specifications/Detailed performance.svg" alt="Hardware Icon">
                 </div>
                 <p><strong>Detailed performance reports and certification issuance.</strong></p>
             </div>
@@ -766,7 +719,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                  Ensure regulatory compliance with our Radio & VDR APT services. Get in touch today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

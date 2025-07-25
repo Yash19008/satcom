@@ -583,54 +583,53 @@ include 'include/header.php';
     </section>
   </div>
 </div>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const accordions = document.querySelectorAll('.accordion-collapse');
+<!-- form section -->
+<div class="specialist-section-img connectivity" style="background-image: url('assets/images/footers/Page\ Bottom.png')">
+  <div class="d-flex">
+    <section class="specialist-section mt-0 container">
+      <h2 class="specialist-title mb-3">GET IN TOUCH</h2>
+      <p>If you have any questions or need assistance, fill out the form below, and we’ll get back to you promptly.</p>
+      <form class="specialist-form">
+        <div class="specialist-row">
+          <input type="text" placeholder="Name*" class="specialist-input" required>
+          <input type="email" placeholder="Email*" class="specialist-input" required>
+        </div>
+        <div class="specialist-row">
+          <input type="text" placeholder="Phone" class="specialist-input">
+          <input type="text" placeholder="Country*" class="specialist-input" required>
 
-    accordions.forEach(accordion => {
-      accordion.addEventListener('shown.bs.collapse', () => {
-        const hr = accordion.querySelector('.accordion-divider');
-        if (hr) {
-          hr.classList.remove('animate');
-          void hr.offsetWidth; // force reflow
-          hr.classList.add('animate');
-        }
-      });
+          <div class="specialist-col specialist-col-last">
+            <div class="select-with-circle-wrapper">
+              <select class="select-with-circle" required>
+                <option value="Topic" disabled selected hidden>Topic</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="sales">Sales</option>
+                <option value="partnership">Partnership</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
 
-      // Optional: Reset animation when collapsed
-      accordion.addEventListener('hide.bs.collapse', () => {
-        const hr = accordion.querySelector('.accordion-divider');
-        if (hr) {
-          hr.classList.remove('animate');
-        }
-      });
-    });
-  });
-</script>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const accordions = document.querySelectorAll('.accordion-collapse');
+        </div>
 
-    accordions.forEach(accordion => {
-      accordion.addEventListener('shown.bs.collapse', () => {
-        const body = accordion.querySelector('.accordion-body');
-        if (body) {
-          body.classList.remove('show-effect');
-          void body.offsetWidth; // force reflow
-          body.classList.add('show-effect');
-        }
-      });
-
-      accordion.addEventListener('hide.bs.collapse', () => {
-        const body = accordion.querySelector('.accordion-body');
-        if (body) {
-          body.classList.remove('show-effect');
-        }
-      });
-    });
-  });
-</script>
-
+        <div>
+          <textarea placeholder="Message" class="specialist-textarea" required></textarea>
+        </div>
+        <div class="form-checkbox">
+          <label class="specialist-checkbox">
+            <input type="checkbox" required />
+          </label>
+          <p style="margin: 0;"> Your data is necessary for processing your inquiry and will be used only for this purpose.
+            You can find our <a href="#" style="color: #fff; text-decoration: underline;">Privacy Policy</a> here.</p>
+        </div>
+        <div class="specialist-submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</div>
 
 <?php
 include 'include/footer.php';

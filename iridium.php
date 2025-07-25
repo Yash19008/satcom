@@ -429,7 +429,7 @@ include 'include/header.php';
             <p class="globalstar-description">
              Iridium delivers truly global satellite connectivity, ensuring seamless communication anywhere on Earth, including polar regions. With the Iridium Certus network, vessels benefit from secure, reliable voice and data services, ideal for maritime operations, emergency communication, and remote fleet management.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -717,7 +717,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text"> 
                     Upgrade to iridium for reliable global satellite communication.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Get in touch today.</a>
+                <a href="contact-us.php" class="fleet-cta-button">Get in touch today.</a>
             </div>
 
         </section>

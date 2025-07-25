@@ -11,7 +11,7 @@ include 'include/header.php';
     }
 
     .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
+        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
         background-size: auto;
         background-size: cover;
         opacity: 0.8;
@@ -32,7 +32,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Voyage Safety & Security by Station Satcom ensures vessels remain protected from threats, comply with international regulations, and maintain operational continuity through advanced tracking, security alerts, and risk mitigation tools.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -46,7 +46,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative" style="background-image: url('assets/images/operational-product/voyage-safety/use-cases/Use\ Cases_Voyage\ Safety\ &\ Security_Commercial\ Shipping.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -60,7 +60,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative" style="background-image: url('assets/images/operational-product/voyage-safety/use-cases/Use\ Cases_Voyage\ Safety\ &\ Security_Ferries\ &\ Passenger\ Vessels.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -73,7 +73,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative" style="background-image: url('assets/images/operational-product/voyage-safety/use-cases/Use\ Cases_Voyage\ Safety\ &\ Security_Naval\ &\ Government\ Vessels.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -86,7 +86,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative" style="background-image: url('assets/images/operational-product/voyage-safety/use-cases/Use\ Cases_Voyage\ Safety\ &\ Security_Fishing\ Vessels.png'); ">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -149,7 +149,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/operational-product/voyage-safety/key-features/Dedicated SSAS Hardware.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Secure Ship Security Alert <br>System (SSAS) integration.
                 </p>
@@ -160,7 +160,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/operational-product/voyage-safety/key-features/Real-time alerts.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Stay updated on global maritime <br>security threats.</p>
             </div>
@@ -170,7 +170,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/operational-product/voyage-safety/key-features/Pre-Voyage Route Optimization.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Plan secure and efficient <br>travel routes.
                 </p>
@@ -181,7 +181,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/operational-product/voyage-safety/key-features/Automated Risk Assessment.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Identify potential threats <br>before they escalate.
                 </p>
@@ -201,7 +201,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Voyage/Benefits/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/voyage-safety/benefits-of-customer/Benefits Of Customer_Voyage Safety & Security_Increased Maritime Security.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Protect crew and cargo from piracy and unauthorized boarding.
                         </div>
@@ -209,7 +209,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Voyage/Benefits/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/voyage-safety/benefits-of-customer/Benefits Of Customer_Voyage Safety & Security_Regulatory Compliance.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Adhere to IMO and SOLAS safety mandates.
                         </div>
@@ -217,7 +217,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Voyage/Benefits/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/voyage-safety/benefits-of-customer/Benefits Of Customer_Voyage Safety & Security_Optimized Voyage Planning.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Reduce operational risks through intelligent route adjustments.
                         </div>
@@ -228,7 +228,7 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Voyage/Benefits/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/voyage-safety/benefits-of-customer/Benefits Of Customer_Voyage Safety & Security_Incident Response Efficiency.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensure immediate action during security threats.
                         </div>
@@ -246,7 +246,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/operational-product/voyage-safety/technical-specifications/Satellite AIS, Inmarsat-C, and LRIT tracking integration.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Integration with SSAS, AIS, and LRIT tracking.</strong></p>
             </div>
@@ -255,7 +255,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/operational-product/voyage-safety/technical-specifications/Secure encryption.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Secure encryption for communication and data transfer.</strong></p>
             </div>
@@ -264,7 +264,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/operational-product/voyage-safety/technical-specifications/Automated Security.svg" alt="Hardware Icon">
                 </div>
                 <p><strong>Automated security alerts and emergency notifications.</strong></p>
             </div>
@@ -273,7 +273,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-communication p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    <img src="assets/images/operational-product/voyage-safety/technical-specifications/Compliance with IMO, SOLAS.svg" alt="Data speeds Icon">
                 </div>
                 <p><strong>Compliance with SOLAS, IMO, and ISPS code requirements.</strong></p>
             </div>
@@ -292,7 +292,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Strengthen your fleet’s security with our Voyage Safety & Security solutions. Contact us today.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

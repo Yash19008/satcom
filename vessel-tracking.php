@@ -32,7 +32,7 @@ include 'include/header.php';
             <p class="globalstar-description">
                 Station Satcom’s Vessel Tracking solutions provide real-time location updates, route optimization, and fleet management tools for enhanced maritime safety and efficiency.
             </p>
-            <a href="#contact" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
+            <a href="contact-us.php" class="globalstar-button">CONNECT WITH A SPECIALIST</a>
         </div>
     </div>
 </section>
@@ -312,7 +312,7 @@ include 'include/header.php';
                 <h2 class="fleet-cta-text">
                     Monitor and optimize your fleet’s movements with our Vessel Tracking solutions. Contact us now.
                 </h2>
-                <a href="#contact" class="fleet-cta-button">Contact us</a>
+                <a href="contact-us.php" class="fleet-cta-button">Contact us</a>
             </div>
 
         </section>

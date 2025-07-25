@@ -449,7 +449,7 @@ include 'include/header.php';
       <p class="fleetbroadband-description">
         Inmarsat FleetBroadBand (FBB) provides seamless global communication for maritime operations, delivering reliable voice and data services to vessels of all sizes. It is ideal for operational efficiency, crew welfare, and emergency connectivity.
       </p>
-      <a href="#contact" class="fleetbroadband-button mt-4">CONNECT WITH A SPECIALIST</a>
+      <a href="contact-us.php" class="fleetbroadband-button mt-4">CONNECT WITH A SPECIALIST</a>
     </div>
   </div>
 </section>
@@ -834,7 +834,7 @@ include 'include/header.php';
         <h2 class="fleet-cta-text">
           Enhance your fleet’s communication with FleetBroadBand.
         </h2>
-        <a href="#contact" class="fleet-cta-button">Contact us today.</a>
+        <a href="contact-us.php" class="fleet-cta-button">Contact us today.</a>
       </div>
 
     </section>
