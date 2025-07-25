@@ -30,7 +30,7 @@ foreach ($required as $field) {
 // Assign values
 $name = htmlspecialchars($data['name']);
 $email = filter_var($data['email'], FILTER_VALIDATE_EMAIL);
-$phone = htmlspecialchars($data['phone'] ?? '');
+$phone = htmlspecialchars($data['phone']);
 $country = htmlspecialchars($data['country']);
 $topic = htmlspecialchars($data['topic']);
 $messageText = htmlspecialchars($data['message']);

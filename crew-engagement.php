@@ -148,7 +148,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/crew-engagement/Crew\ Engagement_Station\ Connect\ &\ Engage.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase" style="font-weight: 500;">Station Connects</div>
+                        <div class="ips-icon ips-img-1" style="font-weight: 500;">Station Connects</div>
                         <div class="ips-desc">
                             <p>Secure ship-shore communication and crew intranet.</p>
                         </div>
@@ -163,7 +163,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/crew-engagement/Crew\ Engagement_Station\ Multiplex.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase" style="font-weight: 500;">Station <br> Multiplex</div>
+                        <div class="ips-icon ips-img-1" style="font-weight: 500;">Station <br> Multiplex</div>
                         <div class="ips-desc">
                             <p>IPTV solution delivering live TV channels and entertainment.</p>
                         </div>
@@ -178,7 +178,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/crew-engagement/Crew\ Engagement_Station\ Care.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase" style="font-weight: 500;">Station <br>Care – 24/7</div>
+                        <div class="ips-icon ips-img-1" style="font-weight: 500;">Station <br>Care – 24/7</div>
                         <div class="ips-desc">
                             <p>24/7 telehealth services and mental health support.</p>
                         </div>
@@ -193,7 +193,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/crew-engagement/Crew\ Engagement_Starlink\ for\ Crew.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase" style="font-weight: 500;">Starlink <br> for Crew</div>
+                        <div class="ips-icon ips-img-1" style="font-weight: 500;">Starlink <br> for Crew</div>
                         <div class="ips-desc">
                             <p>High-speed, personal internet access enhancing morale.</p>
                         </div>
@@ -206,7 +206,7 @@ include 'include/header.php';
                 <div class="ips-card text-center" style="background-image: url('assets/images/crew-engagement/Crew\ Engagement_Station\ Kiosk.jpg.png');">
                     <div class="ips-card-arrow"></div>
                     <div class="ips-overlay">
-                        <div class="ips-icon ips-img-1 text-uppercase" style="font-weight: 500;">Station KIOSK</div>
+                        <div class="ips-icon ips-img-1" style="font-weight: 500;">Station KIOSK</div>
                         <div class="ips-desc">
                             <p>Digital noticeboard providing essential information</p>
                         </div>
