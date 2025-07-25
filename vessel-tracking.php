@@ -9,13 +9,6 @@ include 'include/header.php';
             /* smooth fade */
             url(assets/images/gsm/thorough-spacecraft-with-fully-extended-solar-panels-travels-through-vastness-cosmos-illuminated-by-faraway-stars-looming-presence-our-planet.jpg) center center / cover no-repeat;
     }
-
-    .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
-        background-size: auto;
-        background-size: cover;
-        opacity: 0.8;
-    }
 </style>
 <section class="breadcrumb">
     <a href="index.php"><span>Home</span></a>
@@ -285,7 +278,7 @@ include 'include/header.php';
 
 <!-- Fleet CTA Section -->
 
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
     <div class="d-flex">
         <section class="specialist-section container">
             <div class="fleet-cta-container text-center">

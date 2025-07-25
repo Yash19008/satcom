@@ -21,14 +21,6 @@ include 'include/header.php';
         opacity: 0.8;
         z-index: -1;
     }
-
-    .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/Page\ Bottom.png);
-        background-size: auto;
-        background-size: cover;
-        opacity: 0.8;
-    }
-
     .uc-card {
         opacity: 1;
         transform: translateX(0);
@@ -710,7 +702,7 @@ include 'include/header.php';
 
 <!-- Fleet CTA Section -->
 
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
     <div class="d-flex">
         <section class="specialist-section container">
             <div class="fleet-cta-container text-center">
