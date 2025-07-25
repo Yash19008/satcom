@@ -40,14 +40,14 @@ include 'include/header.php';
 </div>
 <section>
     <div class="container">
-         <h2 class="text-start mb-5">USE CASES</h2>
+        <h2 class="text-start mb-5">USE CASES</h2>
         <div class="container-fluid usecase-slider-container ">
             <div id="usecaseSlider" class="carousel slide usecase-carousel" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station-rock/Use\ Cases/1.png');">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station-rock/Use Cases/1.webp');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -61,7 +61,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station_kiosk/Use\ Cases/');">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station-rock/Use Cases/Use\ Cases_Station_R.O.C.K_Emergency_Response_Teams.webp');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -74,7 +74,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station_kiosk/Use\ Cases/');">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station-rock/Use Cases/Use\ Cases_Station_R.O.C.K_Oil\ &\ Gas\ Operations.webp');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -87,7 +87,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station_kiosk/Use\ Cases/');">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide position-relative" style="background-image: url('assets/images/it_cybersecurity/station-rock/Use Cases/Use\ Cases_Station_R.O.C.K_Expedition\ Yachts.webp');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -230,7 +230,7 @@ include 'include/header.php';
 
 <section class="uc-slider-wrapperr">
     <div class="container">
-       
+
         <section class="mt-5 pt-5 container py-5">
             <h2 class="text-start mb-5">TECHNICAL SPECIFICATION</h2>
             <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center g-4 g-md-5">
