@@ -206,7 +206,7 @@ include 'include/header.php';
     /* Center the image */
     background-repeat: no-repeat;
     /* Do not repeat the image */
-    background-size: cover;
+    background-size: auto;
     /* Resize the background image to cover the entire container */
   }
 
@@ -456,107 +456,95 @@ include 'include/header.php';
 </div>
 <section class="container uc-slider-wrapperr">
   <div class="container">
-     <div class="container">
-    <h2 class="text-start mb-5">USE CASES</h2>
-    <div class="container-fluid usecase-slider-container ">
-      <div id="usecaseSlider" class="carousel slide usecase-carousel" data-bs-ride="carousel" data-bs-interval="5000">
-        <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                <div class="usecase-content">
-                  <div class="usecase-text">
-                    <h3>Merchant Shipping</h3>
-                    <p>Optimize fleet communication and monitoring
+    <div class="container">
+      <h2 class="text-start mb-5">USE CASES</h2>
+      <div class="container-fluid usecase-slider-container ">
+        <div id="usecaseSlider" class="carousel slide usecase-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Use Cases/Use\ Cases_Fleet\ Broadband_Merchant\ Shipping.png');">
+                  <div class="usecase-content">
+                    <div class="usecase-text">
+                      <h3>Merchant Shipping</h3>
+                      <p>Optimize fleet communication and monitoring
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Slide 2 -->
-          <div class="carousel-item ">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                <div class="usecase-content">
-                  <div class="usecase-text">
-                    <h3>Fishing Vessels</h3>
-                    <p>Get real-time weather updates and emergency support.
+            <!-- Slide 2 -->
+            <div class="carousel-item ">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Use Cases/Use\ Cases_Fleet\ Broadband_Fishing\ Vessels.png');">
+                  <div class="usecase-content">
+                    <div class="usecase-text">
+                      <h3>Fishing Vessels</h3>
+                      <p>Get real-time weather updates and emergency support.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                <div class="usecase-content">
-                  <div class="usecase-text">
-                    <h3>Offshore Operations</h3>
-                    <p>Maintain remote connectivity for teams at sea.
+            <div class="carousel-item ">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Use Cases/Use\ Cases_Fleet\ Broadband_Offshore\ Energy\ Platforms.png');">
+                  <div class="usecase-content">
+                    <div class="usecase-text">
+                      <h3>Offshore Operations</h3>
+                      <p>Maintain remote connectivity for teams at sea.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                <div class="usecase-content">
-                  <div class="usecase-text">
-                    <h3>Government & Defense</h3>
-                    <p>Secure communications for naval fleets.
+            <div class="carousel-item ">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Use Cases/Use\ Cases_Fleet\ Broadband_Government\ &\ Defense.png');">
+                  <div class="usecase-content">
+                    <div class="usecase-text">
+                      <h3>Government & Defense</h3>
+                      <p>Secure communications for naval fleets.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Add 3 more slides here similarly -->
           </div>
-          <div class="carousel-item ">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                <div class="usecase-content">
-                  <div class="usecase-text">
-                    <h3>Merchant Shipping</h3>
-                    <p>Optimize fleet communication and monitoring
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Add 3 more slides here similarly -->
-        </div>
 
-        <!-- Custom Arrows -->
-        <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#usecaseSlider" data-bs-slide="prev">
-          <div class="arrow-container arrow-left">
-            <div class="arrow-line"></div>
-            <div class="arrow-circle">
-              <i class="arrow-icon"></i>
+          <!-- Custom Arrows -->
+          <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#usecaseSlider" data-bs-slide="prev">
+            <div class="arrow-container arrow-left">
+              <div class="arrow-line"></div>
+              <div class="arrow-circle">
+                <i class="arrow-icon"></i>
+              </div>
             </div>
-          </div>
-        </button>
+          </button>
 
-        <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#usecaseSlider" data-bs-slide="next">
-          <div class="arrow-container arrow-right">
-            <div class="arrow-circle">
-              <i class="arrow-icon"></i>
+          <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#usecaseSlider" data-bs-slide="next">
+            <div class="arrow-container arrow-right">
+              <div class="arrow-circle">
+                <i class="arrow-icon"></i>
+              </div>
+              <div class="arrow-line"></div>
             </div>
-            <div class="arrow-line"></div>
-          </div>
-        </button>
+          </button>
 
-        <!-- Dots -->
-        <div class="carousel-indicators custom-dots">
-          <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="3"></button>
-          <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="4"></button>
+          <!-- Dots -->
+          <div class="carousel-indicators custom-dots">
+            <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#usecaseSlider" data-bs-slide-to="4"></button>
+          </div>
         </div>
       </div>
-    </div>
 
-  </div>
+    </div>
 </section>
 <!-- key benefits card section -->
 <section class="mt-5 pt-5 container py-5">
@@ -619,7 +607,7 @@ include 'include/header.php';
   <div class="row">
     <div class="col-lg-3 col-6">
 
-      <div class="platform-card connectivity">
+      <div class="platform-card connectivity" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Benefits of Customer/Benefits\ Of\ Customer_Fleet\ Broadband_Improved\ Always-On\ Connectivity.png');">
         <div class="overlay"></div>
         <div class="platforms-arrow-btn"></div>
         <div class="card-content">
@@ -633,7 +621,7 @@ include 'include/header.php';
     </div>
     <div class="col-lg-3 col-6">
 
-      <div class="platform-card cybersecurity">
+      <div class="platform-card cybersecurity" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Benefits of Customer/Benefits\ Of\ Customer_Fleet\ Broadband_Cost-Effective\ Solution.png');">
         <div class="overlay"></div>
         <div class="platforms-arrow-btn"></div>
         <div class="card-content">
@@ -646,7 +634,7 @@ include 'include/header.php';
     </div>
     <div class="col-lg-3 col-6">
 
-      <div class="platform-card crew-engagement">
+      <div class="platform-card crew-engagement" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Benefits of Customer/Benefits\ Of\ Customer_Fleet\ Broadband_Crew\ Communication.png');">
         <div class="overlay"></div>
         <div class="platforms-arrow-btn"></div>
         <div class="card-content">
@@ -660,7 +648,7 @@ include 'include/header.php';
     </div>
     <div class="col-lg-3 col-6">
 
-      <div class="platform-card operational-tech">
+      <div class="platform-card operational-tech" style="background-image: url('./assets/images/connectivity/Fleet Broadband/Benefits of Customer/Benefits\ Of\ Customer_Fleet\ Broadband_Fleet\ Management.png');">
         <div class="overlay"></div>
         <div class="platforms-arrow-btn"></div>
         <div class="card-content">

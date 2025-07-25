@@ -46,7 +46,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use1 position-relative" style="background-image: url('assets/images/operational-product/vessel-tracking/Use Cases/Use\ Cases_Vessel\ Tracking_Commercial\ Shipping.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -60,7 +60,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use2 position-relative" style="background-image: url('assets/images/operational-product/vessel-tracking/Use Cases/Use\ Cases_Vessel\ Tracking_Fishing\ Vessels.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -73,7 +73,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use3 position-relative" style="background-image: url('assets/images/operational-product/vessel-tracking/Use Cases/Use\ Cases_Vessel\ Tracking_Offshore\ Energy\ Platforms.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -86,7 +86,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide usecase-slide-staioncrew-use4 position-relative" style="background-image: url('assets/images/operational-product/vessel-tracking/Use Cases/Use\ Cases_Vessel\ Tracking_Government\ &\ Defense.png');">
                                 <div class="black-overlay"></div> <!-- Add this overlay div -->
                                 <div class="usecase-content">
                                     <div class="usecase-text">
@@ -149,7 +149,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-global-coverage p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-1.svg" alt="High-gain GSM boosters icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Key Features/Customizable Data.svg" alt="High-gain GSM boosters icon">
                 </div>
                 <p>Precise tracking with multiple <br>redundancy sources.
                 </p>
@@ -160,7 +160,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-voice-data p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-2.svg" alt="5G-ready technology icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Key Features/Real-Time Location.svg" alt="5G-ready technology icon">
                 </div>
                 <p>Monitor vessel positions instantly.</p>
             </div>
@@ -170,7 +170,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-3.svg" alt="Secure network infrastructure icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Key Features/High-Definition Tracklines.svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Access historical tracking <br>data for analysis.
                 </p>
@@ -181,23 +181,12 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-sos p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-4.svg" alt="Crystal-clear voice calls icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Key Features/Dynamic Weather.svg" alt="Crystal-clear voice calls icon">
                 </div>
                 <p>Integrate weather data for <br>smarter voyage planning.
                 </p>
             </div>
         </div>
-        <!-- <div class="col text-center">
-            <div class="kb-card kb-sos p-4 rounded">
-                <div class="icon mb-3">
-                    <img src="assets/images/gsm/key/gsm-key-5.svg" alt="Crystal-clear voice calls icon">
-                </div>
-                <p>Ensures adherence to maritime <br>welfare
-                    standards.
-                </p>
-            </div>
-        </div> -->
-
     </div>
 </section>
 
@@ -212,7 +201,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Vessel/Benefits/1.webp" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/vessel-tracking/Benefits of Customer/Benefits Of Customer_Vessel Tracking_Enhanced Fleet Visibility.png" alt="Uninterrupted communication for crew and passengers" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Improve operational decision-making with live tracking.
                         </div>
@@ -220,7 +209,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Vessel/Benefits/2.webp" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/vessel-tracking/Benefits of Customer/Benefits Of Customer_Vessel Tracking_Voyage Optimization.png" alt="Cost-effective alternative to satellite-based services" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Reduce fuel costs and improve route efficiency.
                         </div>
@@ -228,7 +217,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Vessel/Benefits/3.webp" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/vessel-tracking/Benefits of Customer/Benefits Of Customer_Vessel Tracking_Regulatory Compliance.png" alt="Supports essential applications such as email, messaging, and web Browse" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Ensure regulatory adherence with accurate location data.
                         </div>
@@ -239,21 +228,12 @@ include 'include/header.php';
             <div class="row justify-content-center second-row-benefit mt-4">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/Vessel/Benefits/4.webp" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
+                        <img src="assets/images/operational-product/vessel-tracking/Benefits of Customer/Benefits Of Customer_Vessel Tracking_Incident Response Efficiency.png" alt="Enhances crew welfare with personal mobile network access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Quickly locate vessels in case of emergencies.
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="benefits-card">
-                        <img src="assets/images/gsm/benefit/gsm-benefit-5.jpg" alt="Reduces operational costs with efficient bandwidth management" class="benefits-image rounded-4">
-                        <div class="benefits-text">
-                            Fresh information can be beamed and played, crew remains upto date
-
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
@@ -266,7 +246,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-models p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-1.svg" alt="Coverage Icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Technical Specifications/Satellite AIS, Inmarsat-C, and LRIT tracking integration.svg" alt="Coverage Icon">
                 </div>
                 <p><strong>Satellite AIS, Inmarsat-C, and LRIT tracking integration.</strong></p>
             </div>
@@ -275,7 +255,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-2.svg" alt="Frequency bands Icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Technical Specifications/Customizable reporting intervals for position updates..svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Customizable reporting intervals for position updates.</strong></p>
             </div>
@@ -284,7 +264,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-certifications p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-3.svg" alt="Hardware Icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Technical Specifications/API access.svg" alt="Hardware Icon">
                 </div>
                 <p><strong>API access for integration with fleet management systems.</strong></p>
             </div>
@@ -293,7 +273,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-communication p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/gsm/tech/gsm-tech-4.svg" alt="Data speeds Icon">
+                    <img src="assets/images/operational-product/vessel-tracking/Technical Specifications/Real-time alerts.svg" alt="Data speeds Icon">
                 </div>
                 <p><strong>Real-time alerts for unauthorized deviations or emergencies.</strong></p>
             </div>

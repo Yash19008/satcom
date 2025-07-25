@@ -204,7 +204,7 @@ include 'include/header.php';
         /* Center the image */
         background-repeat: no-repeat;
         /* Do not repeat the image */
-        background-size: cover;
+        background-size: auto;
         /* Resize the background image to cover the entire container */
     }
 
@@ -440,7 +440,7 @@ include 'include/header.php';
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Xpress/Use Cases/Use\ Cases_Fleet\ Xpress_Commercial\ Shipping.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Cargo & Shipping</h3>
@@ -453,7 +453,7 @@ include 'include/header.php';
                     <!-- Slide 2 -->
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Xpress/Use Cases/Use\ Cases_Fleet\ Xpress_Offshore\ Energy\ Platforms.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Offshore Oil & Gas </h3>
@@ -465,7 +465,7 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Xpress/Use Cases/Use\ Cases_Fleet\ Xpress_Fishing\ Vessels.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Fishing & Leisure </h3>
@@ -477,23 +477,11 @@ include 'include/header.php';
                     </div>
                     <div class="carousel-item ">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
+                            <div class="col-12 col-md-1 col-lg-12 usecase-slide" style="background-image: url('./assets/images/connectivity/Fleet Xpress/Use Cases/Use\ Cases_Fleet\ Xpress_Government\ &\ Defense.png');">
                                 <div class="usecase-content">
                                     <div class="usecase-text">
                                         <h3>Defense & Security </h3>
                                         <p>Encrypted communications for naval operations
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-1 col-lg-12 usecase-slide">
-                                <div class="usecase-content">
-                                    <div class="usecase-text">
-                                        <h3>Cargo & Shipping</h3>
-                                        <p>Reliable connectivity for cargo vessel's and fleet management
                                     </div>
                                 </div>
                             </div>
@@ -597,7 +585,7 @@ include 'include/header.php';
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/fleetxpress/benefits/fleet-benefit-1.jpg" alt="Fully managed service, no capex" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/Fleet Xpress/Benefits of Customer/Benefits-for-Customer_Fleet_Xpress_Fully-managed-service.png" alt="Fully managed service, no capex" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Fully managed service,<br> no capex
                         </div>
@@ -605,7 +593,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/fleetxpress/benefits/fleet-benefit-2.jpg" alt="Voice and Data are separate for the crew" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/Fleet Xpress/Benefits of Customer/Benefits-for-Customer_Fleet_Xpress_Voice-and-Data.png" alt="Voice and Data are separate for the crew" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Voice and Data are separate for<br> the crew
                         </div>
@@ -613,7 +601,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/fleetxpress/benefits/fleet-benefit-3.jpg" alt="Continuous high-speed connectivity across global routes" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/Fleet Xpress/Benefits of Customer/Benefits-for-Customer_Fleet_Xpress_Continuous-high-speed.png" alt="Continuous high-speed connectivity across global routes" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Continuous high-speed connectivity<br> across global routes
                         </div>
@@ -621,7 +609,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/fleetxpress/benefits/fleet-benefit-4.jpg" alt="Unlimited data backup on FleetBroadband" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/Fleet Xpress/Benefits of Customer/Benefits-for-Customer_Fleet_Xpress_Unlimited-data.png" alt="Unlimited data backup on FleetBroadband" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Unlimited data backup on<br> FleetBroadband
                         </div>
@@ -629,7 +617,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/fleetxpress/benefits/fleet-benefit-5.jpg" alt="Reliable and secure network for mission-critical applications" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/Fleet Xpress/Benefits of Customer/Benefits-for-Customer_Fleet_Xpress_Reliable-and-secure.png" alt="Reliable and secure network for mission-critical applications" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Reliable and secure network for<br> mission-critical applications
                         </div>
@@ -637,7 +625,7 @@ include 'include/header.php';
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="benefits-card">
-                        <img src="assets/images/fleetxpress/benefits/fleet-benefit-6.jpg" alt="Improved crew satisfaction with seamless internet access" class="benefits-image rounded-4">
+                        <img src="assets/images/connectivity/Fleet Xpress/Benefits of Customer/Benefits-for-Customer_Fleet_Xpress_Improved-crew-satisfaction.png" alt="Improved crew satisfaction with seamless internet access" class="benefits-image rounded-4">
                         <div class="benefits-text">
                             Improved crew satisfaction with<br> seamless internet access
                         </div>

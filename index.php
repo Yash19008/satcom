@@ -54,59 +54,61 @@ include 'include/header.php';
   <h2 class="platforms-title">INNOVATIVE PLATFORMS</h2>
   <div class="row">
     <div class="col-lg-3 col-6">
-
-      <div class="platform-card connectivity">
-        <div class="overlay"></div>
-        <div class="platforms-arrow-btn"></div>
-        <div class="card-content">
-          <div class="card-title">Connectivity</div>
-          <div class="card-desc">From Starlink and VSAT to Iridium and GSM, our connectivity solutions provide seamless, always-on communication across land, sea, and air.</div>
-          <div class="card-desc card-desc-bottom">Explore: Starlink | VSAT | OneWeb | NexusWave | GSM | Iridium | FBB</div>
-          <div class="card-footer-2">Uninterrupted Global Communication</div>
+      <a href="connectivity.php">
+        <div class="platform-card connectivity">
+          <div class="overlay"></div>
+          <div class="platforms-arrow-btn"></div>
+          <div class="card-content">
+            <div class="card-title">Connectivity</div>
+            <div class="card-desc">From Starlink and VSAT to Iridium and GSM, our connectivity solutions provide seamless, always-on communication across land, sea, and air.</div>
+            <div class="card-desc card-desc-bottom">Explore: Starlink | VSAT | OneWeb | NexusWave | GSM | Iridium | FBB</div>
+            <div class="card-footer-2">Uninterrupted Global Communication</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
     <div class="col-lg-3 col-6">
-
-      <div class="platform-card cybersecurity">
-        <div class="overlay"></div>
-        <div class="platforms-arrow-btn"></div>
-        <div class="card-content">
-          <div class="card-title">IT & Cybersecurity</div>
-          <div class="card-desc">Secure your fleet’s data, networks, and onboard IT infrastructure with advanced cybersecurity and management tools.</div>
-          <div class="card-desc card-desc-bottom">Explore: Station 365 | Station R.O.C.K | Station SecureX | Station Tab (KIV) | Station Kiosk | IT Service & Attendance</div>
-          <div class="card-footer-2">Protect & Optimize Your Operations</div>
+      <a href="it.php">
+        <div class="platform-card cybersecurity">
+          <div class="overlay"></div>
+          <div class="platforms-arrow-btn"></div>
+          <div class="card-content">
+            <div class="card-title">IT & Cybersecurity</div>
+            <div class="card-desc">Secure your fleet’s data, networks, and onboard IT infrastructure with advanced cybersecurity and management tools.</div>
+            <div class="card-desc card-desc-bottom">Explore: Station 365 | Station R.O.C.K | Station SecureX | Station Tab (KIV) | Station Kiosk | IT Service & Attendance</div>
+            <div class="card-footer-2">Protect & Optimize Your Operations</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
     <div class="col-lg-3 col-6">
-
-      <div class="platform-card crew-engagement">
-        <div class="overlay"></div>
-        <div class="platforms-arrow-btn"></div>
-        <div class="card-content">
-          <div class="card-title">Crew Engagement</div>
-          <div class="card-desc">Improve crew morale, retention, and connectivity with advanced entertainment, welfare, and communication solutions.</div>
-          <div class="card-desc card-desc-bottom">Explore: Station Connect & Engage | Station Multiplex | Station Care | Starlink for Crew</div>
-          <div class="card-footer-2">Enhance Welfare & Communication</div>
+      <a href="crew-engagement.php">
+        <div class="platform-card crew-engagement">
+          <div class="overlay"></div>
+          <div class="platforms-arrow-btn"></div>
+          <div class="card-content">
+            <div class="card-title">Crew Engagement</div>
+            <div class="card-desc">Improve crew morale, retention, and connectivity with advanced entertainment, welfare, and communication solutions.</div>
+            <div class="card-desc card-desc-bottom">Explore: Station Connect & Engage | Station Multiplex | Station Care | Starlink for Crew</div>
+            <div class="card-footer-2">Enhance Welfare & Communication</div>
+          </div>
         </div>
-      </div>
-
+      </a>
     </div>
     <div class="col-lg-3 col-6">
-
-      <div class="platform-card operational-tech">
-        <div class="overlay"></div>
-        <div class="platforms-arrow-btn"></div>
-        <div class="card-content">
-          <div class="card-title">Operational Tech</div>
-          <div class="card-desc">Advanced tracking, navigation, and security solutions for fleet operations, safety compliance, and real-time monitoring.</div>
-          <div class="card-desc card-desc-bottom">Explore: Station Watch CCTV | Navigation Equipment | Radio & VDR APT | Remote Compass Adjustment | Remote NavCom Service | Vessel Tracking | Voyage Safety | AIS Tracking | LRIT</div>
-          <div class="card-footer-2">Optimize Performance & Safety</div>
+      <a href="operational-product.php">
+        <div class="platform-card operational-tech">
+          <div class="overlay"></div>
+          <div class="platforms-arrow-btn"></div>
+          <div class="card-content">
+            <div class="card-title">Operational Tech</div>
+            <div class="card-desc">Advanced tracking, navigation, and security solutions for fleet operations, safety compliance, and real-time monitoring.</div>
+            <div class="card-desc card-desc-bottom">Explore: Station Watch CCTV | Navigation Equipment | Radio & VDR APT | Remote Compass Adjustment | Remote NavCom Service | Vessel Tracking | Voyage Safety | AIS Tracking | LRIT</div>
+            <div class="card-footer-2">Optimize Performance & Safety</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
-
   </div>
 </div>
 <!-- holistic card section styling  -->
