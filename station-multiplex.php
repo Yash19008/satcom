@@ -172,7 +172,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-compact p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/crew-engagement/stationmultiplex/key-features/" alt="Secure network infrastructure icon">
+                    <img src="assets/images/crew-engagement/station-care/key-features/24 7 monitoring and diagnostics..svg" alt="Secure network infrastructure icon">
                 </div>
                 <p>Cloud-based content distribution.
                 </p>
@@ -277,7 +277,7 @@ include 'include/header.php';
         <div class="col text-center">
             <div class="kb-card kb-power p-4 rounded">
                 <div class="icon mb-3">
-                    <img src="assets/images/crew-engagement/stationmultiplex/technical-specifications/" alt="Frequency bands Icon">
+                    <img src="assets/images/crew-engagement/stationconnect/technical-specifications/group voice video calls.svg" alt="Frequency bands Icon">
                 </div>
                 <p><strong>Adaptive streaming technology.</strong></p>
             </div>

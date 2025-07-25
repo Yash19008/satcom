@@ -4,6 +4,12 @@ include 'include/header.php';
 <title>Station Satcom | Connectivity</title>
 <!-- style -->
 <style>
+  .ips-icon h4 {
+    text-transform: lowercase;
+  }
+
+
+
   .hero-section {
     position: relative;
     background-color: #010d1b;
@@ -282,7 +288,7 @@ include 'include/header.php';
           <div class="ips-card-arrow"></div>
           <div class="ips-overlay">
             <div class="ips-icon">
-              <h4>FLEAT BROADBAND</h4>
+              <h4>FLEET BROADBAND</h4>
               <!-- <img src="assets/images/included-icon/3d-rendering-biorobots-concept.jpg" alt="Starlink" height="50" style="filter: brightness(0) invert(1);"> -->
             </div>
             <div class="ips-desc">
@@ -434,7 +440,7 @@ include 'include/header.php';
 
 
 <!-- form section -->
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
   <div class="d-flex">
     <section class="specialist-section container">
       <h2 class="specialist-title">CONNECT WITH A SPECIALIST</h2>

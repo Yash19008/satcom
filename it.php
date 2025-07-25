@@ -4,6 +4,10 @@ include 'include/header.php';
 <title>Station Satcom | IT & CYBERSECURITY</title>
 <!-- style -->
 <style>
+  .ips-icon h4 {
+    text-transform: lowercase;
+  }
+
   .hero-section::after {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 60%, #000000 100%),
       /* smooth fade */

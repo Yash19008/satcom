@@ -23,13 +23,6 @@ include 'include/header.php';
         z-index: -1;
     }
 
-    .specialist-section-img {
-        background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
-        background-size: auto;
-        background-size: cover;
-        opacity: 0.8;
-    }
-
     .uc-card {
         opacity: 1;
         transform: translateX(0);
