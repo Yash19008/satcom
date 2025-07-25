@@ -455,10 +455,16 @@
     font-size: 16px;
   }
 
-  .specialist-section-img.connectivity {
+  .specialist-section-img.connectivitym {
     background-size: 100% !important;
     background-repeat: no-repeat !important;
     background-position: 50% 100% !important;
+  }
+
+  .specialist-section-img.connectivity {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 45% !important;
   }
 
   .banner-down p {

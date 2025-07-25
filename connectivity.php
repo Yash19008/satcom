@@ -440,7 +440,7 @@ include 'include/header.php';
 
 
 <!-- form section -->
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
   <div class="d-flex">
     <section class="specialist-section container">
       <h2 class="specialist-title">CONNECT WITH A SPECIALIST</h2>

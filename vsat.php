@@ -13,13 +13,6 @@ include 'include/header.php';
       /* smooth fade */
       url(assets/images/banner-image/VSAT_\ Banner.webp) center center / cover no-repeat;
   }
-
-  .specialist-section-img {
-    background: linear-gradient(to bottom, rgb(2 20 73 / 33%) 60%, #00000070 100%), url(assets/images/footers/vsat-footer.png);
-    background-size: auto;
-    background-size: cover;
-    opacity: 0.8;
-  }
 </style>
 <!-- banner section vsat -->
 
@@ -138,9 +131,9 @@ include 'include/header.php';
 <!-- key benefits card section -->
 <section class="mt-5 pt-5 container py-5">
   <h2 class="text-start mb-5">KEY FEATURES</h2>
-  <div class="row  g-5 text-center">
+  <div class="row justify-content-center  g-5 text-center">
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="kb-card kb-broadband p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key1.png" alt="Broadband Icon">
@@ -149,7 +142,7 @@ include 'include/header.php';
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="kb-card kb-low-latency p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key2.png" alt="Low Latency Icon">
@@ -158,7 +151,7 @@ include 'include/header.php';
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-6 col-md-6 col-lg-4">
       <div class="kb-card kb-hybrid-tech p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key3.png" alt="Hybrid Icon">
@@ -166,25 +159,24 @@ include 'include/header.php';
         <p>Scalable bandwidth<br> solutions tailored<br>to operational needs</p>
       </div>
     </div>
-    <div class="row g-4 justify-content-center mt-3">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="kb-card kb-satellite p-4 rounded">
-          <div class="icon mb-3">
-            <img src="assets/images/vsat/key/vsat-key4.png" alt="Satellite Icon">
-          </div>
-          <p>High-speed broadband<br> with global coverage.</p>
+    <div class="col-6 col-md-6 col-lg-4">
+      <div class="kb-card kb-satellite p-4 rounded">
+        <div class="icon mb-3">
+          <img src="assets/images/vsat/key/vsat-key4.png" alt="Satellite Icon">
         </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="kb-card kb-cost-effective p-4 rounded">
-          <div class="icon mb-3">
-            <img src="assets/images/vsat/key/vsat-key5.png" alt="Ship Icon">
-          </div>
-          <p>24/7 monitoring and<br> technical support</p>
-        </div>
+        <p>High-speed broadband<br> with global coverage.</p>
       </div>
     </div>
+
+    <div class="col-6 col-md-6 col-lg-4">
+      <div class="kb-card kb-cost-effective p-4 rounded">
+        <div class="icon mb-3">
+          <img src="assets/images/vsat/key/vsat-key5.png" alt="Ship Icon">
+        </div>
+        <p>24/7 monitoring and<br> technical support</p>
+      </div>
+    </div>
+  </div>
 
   </div>
 </section>
@@ -241,7 +233,7 @@ include 'include/header.php';
   <h2 class="text-start mb-5">Technical Specifications</h2>
   <div class="row  g-5 text-center">
 
-    <div class="col-12 col-md-6 col-lg-3">
+    <div class="col-6 col-md-6 col-lg-3">
       <div class="kb-card kb-broadband p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key6.png" alt="Broadband Icon">
@@ -251,7 +243,7 @@ include 'include/header.php';
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-3">
+    <div class="col-6 col-md-6 col-lg-3">
       <div class="kb-card kb-low-latency p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key7.png" alt="Low Latency Icon">
@@ -261,7 +253,7 @@ include 'include/header.php';
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-lg-3">
+    <div class="col-6 col-md-6 col-lg-3">
       <div class="kb-card kb-hybrid-tech p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key8.png" alt="Hybrid Icon">
@@ -270,7 +262,7 @@ include 'include/header.php';
         <p>AES encryption<br> and VPN support</p>
       </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-3">
+    <div class="col-6 col-md-6 col-lg-3">
       <div class="kb-card kb-hybrid-tech p-4 rounded">
         <div class="icon mb-3">
           <img src="assets/images/vsat/key/vsat-key-9.png" alt="Hybrid Icon">
@@ -359,7 +351,7 @@ include 'include/header.php';
 
 
 <!-- form section -->
-<div class="specialist-section-img connectivity">
+<div class="specialist-section-img connectivitym">
   <div class="d-flex">
     <section class="specialist-section container">
       <h2 class="specialist-title">CONNECT WITH A SPECIALIST</h2>
